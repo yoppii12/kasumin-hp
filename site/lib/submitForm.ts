@@ -1,9 +1,10 @@
 // フォーム送信の共通処理: GAS Webアプリへ送信し、Googleスプレッドシートに記録する。
 // 方式はホスティング環境（Netlify/VPS）に依存しない（要件定義書8-3節のSheets連携）。
 // GAS側の実装: scripts/gas/form-receiver.gs / 手順: docs/260903_フォームSheets連携手順.md
-// TODO(フォームSheets連携フェーズ): KASUMIN用のGAS Webアプリをデプロイし、URLをここに設定する
-// 手順: laplust-hp/docs/260903_フォームSheets連携手順.md を雛形にする（通知先: info@kasumin.biz）
-const GAS_ENDPOINT = '';
+// GAS側の実装: scripts/gas/form-receiver.gs / 手順: docs/260921_フォームSheets連携手順.md
+// （通知先: info@kasumin.biz / 実行アカウント: h.kasumi@kasumin.biz）
+const GAS_ENDPOINT =
+  'https://script.google.com/macros/s/AKfycbwZD9wp41enWg_WdjHIA6s2utdZVfS39a6R4C_S-Jvn2TmOoU5j-iOcwN4NjCWVurmX/exec';
 
 export async function submitForm(
   formName: string,
