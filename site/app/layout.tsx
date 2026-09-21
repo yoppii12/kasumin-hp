@@ -44,8 +44,14 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image' },
 };
 
-// TODO: GA4プロパティ作成後（LAplust管理のGoogleアカウント配下に新規作成予定）、
-// laplust-hp と同様のGTMスニペットをここに追加する（本番ドメイン限定ガード付き）
+// GA4はGTM経由で計測（GA4プロパティ: KASUMIN HP / G-4BYV0QM1WB。laplust-hpと同構成）
+const GTM_ID = 'GTM-KKJ2KRB3';
+
+// 本番ドメインでのみGTMを読み込む（localhost・プレビュー環境を計測から除外）
+const GTM_SNIPPET = `(function(){
+if(!/(^|\\.)kasumin\\.biz$/.test(location.hostname))return;
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GTM_ID}');
+})();`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -54,7 +60,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="ja"
       className={`${montserrat.variable} ${kosugiMaru.variable} ${notoSansJp.variable}`}
     >
-      <body>{children}</body>
+      <head>
+        {/* Google Tag Manager */}
+        <script dangerouslySetInnerHTML={{ __html: GTM_SNIPPET }} />
+      </head>
+      <body>
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
+        {children}
+      </body>
     </html>
   );
 }
