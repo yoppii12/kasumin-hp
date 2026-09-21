@@ -1,14 +1,13 @@
-# mainへのpushで自動ビルドし、さくらVPSへ配信ファイルを同期する
+# デフォルトブランチへのpushで自動ビルドし、さくらVPS（kasumin-hp）へ配信ファイルを同期する
 # 必要なリポジトリSecrets（Settings → Secrets and variables → Actions）:
 #   VPS_HOST     … VPSのIPアドレスまたはホスト名
 #   VPS_USER     … SSH接続ユーザー（例: ubuntu）
 #   VPS_SSH_KEY  … 上記ユーザーの秘密鍵（OpenSSH形式・パスフレーズなし）
-# Secrets未設定の間はこのワークフローは失敗する（設定後に自動で機能する）
 name: Deploy to Sakura VPS
 
 on:
   push:
-    branches: [main]
+    branches: [claude/kasumin-hp-migration-phase1-97pogm]
   workflow_dispatch:
 
 concurrency:

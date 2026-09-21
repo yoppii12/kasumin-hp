@@ -1,6 +1,5 @@
 # アセットの長期キャッシュ（ファイル名にハッシュが含まれ内容不変のため安全）
-# NetlifyとCloudflare Pagesの両方で有効（netlify.tomlと同内容）
+# 本番はさくらVPSのnginx（infra/nginx/kasumin.conf）で同内容を設定済み。
+# このファイルはNetlify等でプレビューホスティングする場合のみ有効
 /assets/*
-  Cache-Control: public, max-age=31536000, immutable
-/images/posters/*
   Cache-Control: public, max-age=31536000, immutable
