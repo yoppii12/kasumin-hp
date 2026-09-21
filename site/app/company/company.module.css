@@ -1,0 +1,171 @@
+/* 会社情報ページ（実測: docs/audit/styles/company.json 準拠） */
+
+/* ページタイトル（実測: Montserrat 28px 500 中央） */
+.pageTitle {
+  font-family: var(--font-en);
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 2;
+  text-align: center;
+}
+
+/* タブバー（実測: 背景 #F9F9F9・16px 500） */
+.tabBar {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  max-width: 100%;
+  margin: 40px auto 0;
+  padding: 4px;
+  border-radius: 999px;
+  background: var(--color-bg-light);
+  overflow-x: auto;
+}
+
+.tabBar a {
+  padding: 10px 40px;
+  border-radius: 32px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8;
+  white-space: nowrap;
+  color: var(--color-text);
+  transition: background-color 0.3s cubic-bezier(0.4, 0.4, 0, 1);
+}
+
+.tabBar a:hover {
+  background: var(--color-pink-pale);
+}
+
+.section {
+  padding-top: 96px;
+}
+
+/* セクション見出し（実測: Kosugi Maru 28px 500） */
+.sectionTitle {
+  font-family: var(--font-ja);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+/* Our Mission / Our Vision ラベル（実測: rgba(23,26,49,0.5)） */
+.enLabel {
+  display: block;
+  margin-top: 24px;
+  font-size: 16px;
+  color: rgba(23, 26, 49, 0.5);
+}
+
+/* ミッション（実測: 40px 600） */
+.mission {
+  margin-top: 16px;
+  font-family: var(--font-ja);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+/* ビジョン本文（実測: 24px 400 lh1.8） */
+.vision {
+  margin-top: 16px;
+  font-family: var(--font-ja);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.vision p {
+  margin-top: 24px;
+}
+
+/* 想いブロック（実測: h3 Kosugi Maru 24px / 本文 16px lh2） */
+.thought {
+  margin-top: 64px;
+}
+
+.thoughtTitle {
+  font-family: var(--font-ja);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.thought p {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 2;
+}
+
+/* 会社概要テーブル */
+.overview {
+  margin-top: 32px;
+}
+
+.overviewRow {
+  display: grid;
+  grid-template-columns: 176px 1fr;
+  gap: 24px;
+  padding: 28px 8px;
+  border-bottom: 1px solid var(--color-border-soft);
+}
+
+.overviewRow dt {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.overviewRow dd {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* メンバー */
+.member {
+  display: grid;
+  grid-template-columns: 232px 1fr;
+  gap: 40px;
+  margin-top: 48px;
+}
+
+.memberPhoto {
+  width: 232px;
+  border-radius: 8px;
+}
+
+.memberRole {
+  font-size: 16px;
+}
+
+.memberName {
+  margin-top: 4px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.memberProfile {
+  margin-top: 16px;
+  font-size: 12px;
+  line-height: 2;
+}
+
+@media (max-width: 767px) {
+  .mission {
+    font-size: 28px;
+  }
+
+  .vision {
+    font-size: 18px;
+  }
+
+  .overviewRow {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .member {
+    grid-template-columns: 1fr;
+  }
+}

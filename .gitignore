@@ -1,0 +1,4 @@
+node_modules/
+site/out/
+site/.next/
+.DS_Store

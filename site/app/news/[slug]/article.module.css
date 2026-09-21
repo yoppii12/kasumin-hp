@@ -1,0 +1,37 @@
+/* ニュース記事ページ（実測: タイトル Kosugi Maru 40px 中央 / 本文列 592px / ヒーロー画像 1032px） */
+
+.title {
+  font-family: var(--font-ja);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.meta {
+  margin-top: 16px;
+  text-align: center;
+  font-family: var(--font-en);
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--color-gray);
+}
+
+.hero {
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+/* 本文はページ中央の592px列（実測） */
+.body {
+  max-width: 592px;
+  margin: 48px auto 0;
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 28px;
+  }
+}

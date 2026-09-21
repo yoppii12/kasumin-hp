@@ -1,0 +1,247 @@
+/* トップページ（実測値: docs/audit/styles/home.json 準拠） */
+
+/* ヒーロー（全画面・背景写真・白文字） */
+.hero {
+  position: relative;
+  height: 100vh;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url('/assets/design/bXqzew1ZOD/s-2000x1334_v-frms_webp_e4c2e32f-87c9-409b-be2d-0eb8e8014daa_regular.webp');
+}
+
+/* 文字を読ませるための薄いオーバーレイ */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.heroBody {
+  position: relative;
+  text-align: center;
+  padding: 0 24px;
+}
+
+/* 実測: Kosugi Maru 48px lh86.4 字間3.84px #F7F8F7 */
+.heroTitle {
+  font-family: var(--font-ja);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.08em;
+  color: #f7f8f7;
+}
+
+/* 実測: Montserrat 300 22px lh39.6 字間1.76px */
+.heroSub {
+  margin-top: 8px;
+  font-family: var(--font-en);
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: 0.08em;
+  color: #f7f8f7;
+}
+
+/* 実測: 白ピル 166x48 radius32・文字ピンク 16px */
+.heroBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 166px;
+  margin-top: 64px;
+  padding: 11px 36px;
+  border-radius: 32px;
+  background: #fff;
+  color: var(--color-accent);
+  font-family: var(--font-en);
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.heroBtn:hover {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+/* 実測: 下部中央 40px円・白枠1px・矢印アイコン24x21 */
+.heroScroll {
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.heroScroll img {
+  width: 24px;
+  height: 21px;
+}
+
+@media (max-width: 767px) {
+  .heroTitle {
+    font-size: 30px;
+  }
+
+  .heroSub {
+    font-size: 16px;
+  }
+}
+
+/* セクション共通 */
+.section {
+  padding-top: 64px;
+}
+
+.sectionHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 実測: Kosugi Maru 40px 400 #333 */
+.sectionTitle {
+  font-family: var(--font-ja);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.viewMore {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-en);
+  font-size: 16px;
+  color: var(--color-text);
+  transition: opacity 0.3s ease;
+}
+
+.viewMore:hover {
+  opacity: 0.6;
+}
+
+/* 事業紹介 */
+.businessLead {
+  margin-top: 8px;
+  font-family: var(--font-en);
+  font-size: 16px;
+  line-height: 2;
+  color: var(--color-gray);
+}
+
+/* 循環図（現行は1枚画像・実測 774x731 中央配置） */
+.diagram {
+  display: block;
+  width: 774px;
+  max-width: 100%;
+  margin: 160px auto 0;
+}
+
+/* 事業バンド（背景写真＋白文字・実測: 白ピルボタン・ピンク枠） */
+.band {
+  position: relative;
+  margin-top: 176px;
+  padding: 126px 48px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+}
+
+.band::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.band > * {
+  position: relative;
+}
+
+.band + .band {
+  margin-top: 56px;
+}
+
+.bandTitle {
+  font-family: var(--font-ja);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.bandSub {
+  font-family: var(--font-en);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.bandDesc {
+  max-width: 650px;
+  margin: 24px auto 0;
+  font-family: var(--font-en);
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.bandBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 166px;
+  margin-top: 48px;
+  padding: 10px 36px;
+  border-radius: 32px;
+  border: 1px solid var(--color-accent);
+  background: #fff;
+  color: var(--color-accent);
+  font-family: var(--font-ja);
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bandBtn:hover {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+/* 最終バンドとフッターの間 */
+.bandsWrap {
+  padding-bottom: 96px;
+}
+
+@media (max-width: 767px) {
+  .sectionTitle {
+    font-size: 30px;
+  }
+
+  .diagram {
+    margin-top: 64px;
+  }
+
+  .band {
+    margin-top: 64px;
+    padding: 72px 24px;
+  }
+
+  .bandDesc {
+    text-align: left;
+  }
+}

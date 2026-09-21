@@ -1,0 +1,1316 @@
+[
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": "br[data-bp~=\"base:0\"]{display:none;}\nbr[data-bp~=\"base:1\"]{d"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-f48f3aab-31e1-40b3-a2b9-3f5628d4b2be] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-6ee651e8-88d5-47a6-8f57-288717145264] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-28b5addf-0e19-40c0-91cd-da2d65c59bcc] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-7c24a951-d2ca-4e36-8314-f18b9144360e] { backgroun"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": "body { background: #fff; transition: background 0.5s cubic-b"
+ },
+ {
+  "tag": "div",
+  "text": "保育士・保護者・地域の笑顔をつなぐKASUMIN 読み込まれました",
+  "box": {
+   "x": -1,
+   "y": -1,
+   "w": 1,
+   "h": 1
+  },
+  "style": {
+   "ff": "Times New Roman",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(0, 0, 0)",
+   "pos": "absolute"
+  },
+  "depth": 4
+ },
+ {
+  "tag": "a",
+  "href": "/",
+  "box": {
+   "x": 40,
+   "y": 20,
+   "w": 160,
+   "h": 43
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-971x263_v-fs_webp_1aaf178d-68f2-4b33-a119-3048e6028a78_small.webp",
+  "box": {
+   "x": 40,
+   "y": 20,
+   "w": 160,
+   "h": 43
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "a",
+  "text": "事業紹介",
+  "href": "/#business",
+  "box": {
+   "x": 265,
+   "y": 27,
+   "w": 69,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "会社情報",
+  "href": "/company",
+  "box": {
+   "x": 366,
+   "y": 27,
+   "w": 69,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "ニュース",
+  "href": "/news",
+  "box": {
+   "x": 467,
+   "y": 27,
+   "w": 68,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "イベント運営",
+  "href": "/event",
+  "box": {
+   "x": 568,
+   "y": 27,
+   "w": 104,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "KASUMINブログ",
+  "href": "https://note.com/kasumin977",
+  "target": "_blank",
+  "box": {
+   "x": 703,
+   "y": 27,
+   "w": 139,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "お問い合わせ",
+  "href": "/contact",
+  "box": {
+   "x": 874,
+   "y": 27,
+   "w": 104,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "button",
+  "hidden": true,
+  "text": ""
+ },
+ {
+  "tag": "h1",
+  "text": "Company",
+  "box": {
+   "x": 648,
+   "y": 112,
+   "w": 145,
+   "h": 50
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "28px",
+   "fw": "500",
+   "lh": "50.4px",
+   "ls": "1.12px",
+   "color": "rgb(51, 51, 51)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "a",
+  "href": "/company/our_thoughts/#management",
+  "box": {
+   "x": 480,
+   "y": 203,
+   "w": 149,
+   "h": 42
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "br": "32px",
+   "pos": "relative",
+   "border": "1px solid rgba(0, 0, 0, 0)"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "会社方針",
+  "box": {
+   "x": 521,
+   "y": 216,
+   "w": 67,
+   "h": 16
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "16px",
+   "fw": "500",
+   "lh": "16px",
+   "ls": "0.8px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 15
+ },
+ {
+  "tag": "a",
+  "href": "/company/company/#information",
+  "box": {
+   "x": 645,
+   "y": 203,
+   "w": 149,
+   "h": 42
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "br": "32px",
+   "pos": "relative",
+   "border": "1px solid rgba(0, 0, 0, 0)"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "会社概要",
+  "box": {
+   "x": 686,
+   "y": 216,
+   "w": 67,
+   "h": 16
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "16px",
+   "fw": "500",
+   "lh": "16px",
+   "ls": "0.8px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 15
+ },
+ {
+  "tag": "a",
+  "href": "/company/member/#member",
+  "box": {
+   "x": 811,
+   "y": 203,
+   "w": 149,
+   "h": 42
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "br": "32px",
+   "pos": "relative",
+   "border": "1px solid rgba(0, 0, 0, 0)"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "メンバー",
+  "box": {
+   "x": 852,
+   "y": 216,
+   "w": 67,
+   "h": 16
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "16px",
+   "fw": "500",
+   "lh": "16px",
+   "ls": "0.8px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 15
+ },
+ {
+  "tag": "h2",
+  "text": "会社方針",
+  "box": {
+   "x": 280,
+   "y": 389,
+   "w": 116,
+   "h": 50
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "28px",
+   "fw": "500",
+   "lh": "50.4px",
+   "ls": "1.12px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "span",
+  "text": "Our Mission",
+  "box": {
+   "x": 280,
+   "y": 464,
+   "w": 103,
+   "h": 22
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "0.64px",
+   "color": "rgba(23, 26, 49, 0.5)",
+   "pos": "relative"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "p",
+  "text": "子どもたちの笑顔のために、大人たちがつながり、安心して働き・育てられる環境をつくる。",
+  "box": {
+   "x": 280,
+   "y": 510,
+   "w": 880,
+   "h": 144
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "40px",
+   "fw": "600",
+   "lh": "72px",
+   "ls": "1.6px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "span",
+  "text": "Our Vision",
+  "box": {
+   "x": 280,
+   "y": 694,
+   "w": 90,
+   "h": 22
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "0.64px",
+   "color": "rgba(23, 26, 49, 0.5)",
+   "pos": "relative"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "p",
+  "text": "未来ある子どもたちのために、笑顔あふれる世界を★",
+  "box": {
+   "x": 280,
+   "y": 741,
+   "w": 349,
+   "h": 86
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "24px",
+   "fw": "400",
+   "lh": "43.2px",
+   "ls": "0.96px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "合同会社KASUMINは保育士不足の解消と保育の質の向上を目指し、現場の「声」をすくい、地域で支え合う仕組みづくりに取り組んでいます。",
+  "box": {
+   "x": 280,
+   "y": 859,
+   "w": 880,
+   "h": 86
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "24px",
+   "fw": "400",
+   "lh": "43.2px",
+   "ls": "0.96px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "「保育士の笑顔＝子どもの笑顔＝保護者の笑顔」",
+  "box": {
+   "x": 280,
+   "y": 977,
+   "w": 549,
+   "h": 43
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "24px",
+   "fw": "400",
+   "lh": "43.2px",
+   "ls": "0.96px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "この循環を生み出すために、園・地域・企業・行政とともに歩みながら、保育に関わる人が安心して笑顔で過ごせる社会を目指します。",
+  "box": {
+   "x": 280,
+   "y": 1053,
+   "w": 823,
+   "h": 86
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "24px",
+   "fw": "400",
+   "lh": "43.2px",
+   "ls": "0.96px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "h3",
+  "text": "子どもたちへの想い",
+  "box": {
+   "x": 280,
+   "y": 1179,
+   "w": 225,
+   "h": 43
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "24px",
+   "fw": "400",
+   "lh": "43.2px",
+   "ls": "0.96px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "子どもの気持ちや表情、言葉の意味を感じ取って寄り添える。その子らしさをまるごと受けとめられる保育環境づくりを目指しています。子どもの「やりたい！」という気持ちを引き出し、応援すること。そして、「自分は大切にされている」と感じられる園であれば、その実感こそが、子どもが安心して過ごすためのいちばんの力になると考えています。日本の未来を担う子どもたちが、笑顔あふれる世界へと一歩を踏み出せるように。「生まれてきてくれてありがとう」——その言葉が、大人たちの口から自然にこぼれるような社会を、私たちはつくっていきたいと思います。",
+  "box": {
+   "x": 280,
+   "y": 1238,
+   "w": 652,
+   "h": 317
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.8px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "h3",
+  "text": "保護者への想い",
+  "box": {
+   "x": 280,
+   "y": 1611,
+   "w": 175,
+   "h": 43
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "24px",
+   "fw": "400",
+   "lh": "43.2px",
+   "ls": "0.96px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "子どもが安心して育つためには、そばで支える大人――保護者が笑顔でいられる環境が欠かせません。子どもの成長や変化は日々めまぐるしく、ときには寄り添うことが難しいこともあります。それでも一緒に喜び、時に悩み、挑戦していく。そんな保護者の気持ちに寄り添えるような支援も行っています。家庭それぞれで、子育てへの思いは違うもの。その違い一つひとつを大切にしながら、「自分たちらしい子育て」を見つけられるようなサポートやイベント・講座などをお届けしています。そして、保護者の方が笑顔でいることは、家庭の中にあたたかな空気を広げ、「仕事も家庭も大切にしたい」という前向きな気持ちを育てます。子どもと向き合う時間がよりやさしく、より前向きになることで、家庭の中には笑顔の循環が広がっていきます。私たちは、こうした笑顔の循環が続いていくように、保護者支援を通して共に歩み、共に成長していける関係をこれからも大切にしていきたいと考えています。",
+  "box": {
+   "x": 280,
+   "y": 1670,
+   "w": 880,
+   "h": 547
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.8px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "h3",
+  "text": "企業・行政・地域の皆様へ",
+  "box": {
+   "x": 280,
+   "y": 2273,
+   "w": 300,
+   "h": 43
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "24px",
+   "fw": "400",
+   "lh": "43.2px",
+   "ls": "0.96px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "社会全体で支える保育へ保育士・保護者・園長など多様な立場の声を聞き取り、現場課題を“可視化”し、人材定着や制度改善につなげています。保育は「教育」「福祉」「地域づくり」のすべてに関わるテーマです。行政・企業・地域が協働することで、持続可能な保育環境が生まれます。【CSR／地域連携型】子どもたちの未来のために、保育士や保護者、園の先生たちの声に寄り添い、保育士定着支援や保育現場のコミュニケーション改善、保護者との信頼関係づくりなど、地域ぐるみで支える仕組みを進めています。【従業員支援型】子育てをしながら働く従業員が、仕事も家庭も大切にできるように。企業の皆さまと連携しながら、従業員が安心して働き続けられる環境づくりを進めていきます。企業内研修や福利厚生、職場環境の整備などを通して、一人ひとりが自分らしく働ける職場を目指し、また、制度やコミュニケーションの改善にも取り組み、子育て世代が安心してキャリアを描けるよう、企業の皆さまと伴走しながらサポートを続けています。",
+  "box": {
+   "x": 280,
+   "y": 2332,
+   "w": 880,
+   "h": 547
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.8px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "h2",
+  "text": "会社概要",
+  "box": {
+   "x": 280,
+   "y": 2979,
+   "w": 116,
+   "h": 50
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "28px",
+   "fw": "500",
+   "lh": "50.4px",
+   "ls": "1.12px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "会社名",
+  "box": {
+   "x": 280,
+   "y": 3062,
+   "w": 50,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.64px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "合同会社KASUMIN (カスミン / KASUMIN LLC.)",
+  "box": {
+   "x": 448,
+   "y": 3062,
+   "w": 712,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.64px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "p",
+  "text": "設立年月日",
+  "box": {
+   "x": 280,
+   "y": 3156,
+   "w": 83,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.64px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "2025年9月22日",
+  "box": {
+   "x": 448,
+   "y": 3156,
+   "w": 712,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.64px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "p",
+  "text": "代表者",
+  "box": {
+   "x": 280,
+   "y": 3249,
+   "w": 50,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.64px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "代表社員 平田 香澄(旧姓)",
+  "box": {
+   "x": 448,
+   "y": 3249,
+   "w": 712,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.64px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "p",
+  "text": "本社所在地",
+  "box": {
+   "x": 280,
+   "y": 3343,
+   "w": 83,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.64px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "〒850-0054 長崎県長崎市上町4-37",
+  "box": {
+   "x": 448,
+   "y": 3343,
+   "w": 275,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.64px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "事業内容",
+  "box": {
+   "x": 280,
+   "y": 3437,
+   "w": 67,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.64px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "保育士不足解消への支援保育園の業務改善サポート保育者・保護者の学びの場づくり",
+  "box": {
+   "x": 448,
+   "y": 3437,
+   "w": 712,
+   "h": 86
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.64px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "h2",
+  "text": "メンバー",
+  "box": {
+   "x": 280,
+   "y": 3656,
+   "w": 116,
+   "h": 50
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "28px",
+   "fw": "500",
+   "lh": "50.4px",
+   "ls": "1.12px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-2016x1764_v-frms_webp_224417fd-6921-4e67-a0b7-dbd4cfbd62a4_small.webp",
+  "box": {
+   "x": 280,
+   "y": 3739,
+   "w": 232,
+   "h": 203
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 15
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-2016x1764_v-frms_webp_6c62d67e-6064-4cb9-b211-88c9eb0fb10e_small.webp",
+  "box": {
+   "x": 280,
+   "y": 3739,
+   "w": 232,
+   "h": 203
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "absolute"
+  },
+  "depth": 15
+ },
+ {
+  "tag": "span",
+  "text": "代表社員",
+  "box": {
+   "x": 544,
+   "y": 3739,
+   "w": 67,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "0.64px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 15
+ },
+ {
+  "tag": "h3",
+  "text": "平田 香澄(旧姓)",
+  "box": {
+   "x": 544,
+   "y": 3772,
+   "w": 148,
+   "h": 36
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "20px",
+   "fw": "600",
+   "lh": "36px",
+   "ls": "0.8px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 15
+ },
+ {
+  "tag": "p",
+  "text": "【出身】：沖縄県【学校】：専門学校沖縄中央学園 卒業【経歴】：東京都世田谷区の保育園に10年以上勤務, 保育園長 として園運営に従事現場で、保育士不足によって子どもたちの活動が制限されてしまうことや、安全を守るためには十分な人手が不可欠であることを強く実感してきた。その経験から、保育士を支える仕組みの必要性を痛感。2024年に保育アドバイザーとして独立し、2025年9月には、保育者・園・地域がつながり合う仕組みづくりを目指して合同会社KASUMINを設立。子どもたちの安心と笑顔を守るため、保育士不足の解消と、保育環境をより良くする取り組みを進めている。",
+  "box": {
+   "x": 544,
+   "y": 3812,
+   "w": 616,
+   "h": 264
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "12px",
+   "fw": "400",
+   "lh": "24px",
+   "ls": "0.48px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 15
+ },
+ {
+  "tag": "a",
+  "href": "/company#top",
+  "box": {
+   "x": 1380,
+   "y": 840,
+   "w": 60,
+   "h": 60
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(244, 167, 185)",
+   "br": "4px 0px 0px",
+   "pos": "relative"
+  },
+  "depth": 8
+ },
+ {
+  "tag": "p",
+  "text": "Follow us",
+  "box": {
+   "x": 160,
+   "y": 4269,
+   "w": 67,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "a",
+  "href": "https://www.instagram.com/kasumin.jasmine/",
+  "target": "_blank",
+  "box": {
+   "x": 259,
+   "y": 4271,
+   "w": 18,
+   "h": 20
+  },
+  "style": {
+   "ff": "Font Awesome 6 Brands",
+   "fs": "20px",
+   "fw": "400",
+   "lh": "20px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "活動紹介",
+  "href": "/#business",
+  "box": {
+   "x": 160,
+   "y": 4358,
+   "w": 56,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "会社情報",
+  "href": "/company",
+  "box": {
+   "x": 248,
+   "y": 4358,
+   "w": 56,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "ニュース",
+  "href": "/news",
+  "box": {
+   "x": 336,
+   "y": 4358,
+   "w": 55,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "イベント運営",
+  "href": "/event",
+  "box": {
+   "x": 423,
+   "y": 4358,
+   "w": 84,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "KASUMINブログ",
+  "href": "https://note.com/kasumin977",
+  "target": "_blank",
+  "box": {
+   "x": 539,
+   "y": 4358,
+   "w": 110,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "お問い合わせ",
+  "href": "/contact",
+  "box": {
+   "x": 682,
+   "y": 4358,
+   "w": 84,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "href": "/",
+  "box": {
+   "x": 160,
+   "y": 4448,
+   "w": 200,
+   "h": 54
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-971x263_v-fs_webp_1aaf178d-68f2-4b33-a119-3048e6028a78_small.webp",
+  "box": {
+   "x": 160,
+   "y": 4448,
+   "w": 200,
+   "h": 54
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "a",
+  "text": "プライバシーポリシー",
+  "href": "/privacy_policy",
+  "target": "_blank",
+  "box": {
+   "x": 392,
+   "y": 4462,
+   "w": 140,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "a",
+  "text": "サイトポリシー",
+  "href": "/site_policy",
+  "target": "_blank",
+  "box": {
+   "x": 564,
+   "y": 4462,
+   "w": 98,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "Copyright © 2025 KASUMIN, Inc. All rights reserved.",
+  "box": {
+   "x": 916,
+   "y": 4468,
+   "w": 364,
+   "h": 14
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ":root {--s-color-dc80cf2d: #ffffffff;--s-color-f0967a6f: #f9"
+ },
+ {
+  "tag": "script",
+  "hidden": true,
+  "text": "window.__NUXT__={};window.__NUXT__.config={public:{apiBaseUr"
+ },
+ {
+  "tag": "script",
+  "hidden": true,
+  "text": "[[\"ShallowReactive\",1],{\"data\":2,\"state\":5,\"once\":7,\"_errors"
+ }
+]

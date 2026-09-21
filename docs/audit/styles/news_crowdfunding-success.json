@@ -1,0 +1,1414 @@
+[
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": "br[data-bp~=\"base:0\"]{display:none;}\nbr[data-bp~=\"base:1\"]{d"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-f48f3aab-31e1-40b3-a2b9-3f5628d4b2be] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-6ee651e8-88d5-47a6-8f57-288717145264] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-28b5addf-0e19-40c0-91cd-da2d65c59bcc] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-187b5178-5a7f-47c7-8914-16fc0b774cdc] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": "body { background: #fff; transition: background 0.5s cubic-b"
+ },
+ {
+  "tag": "div",
+  "text": "保育士・保護者・地域の笑顔をつなぐKASUMIN 読み込まれました",
+  "box": {
+   "x": -1,
+   "y": -1,
+   "w": 1,
+   "h": 1
+  },
+  "style": {
+   "ff": "Times New Roman",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(0, 0, 0)",
+   "pos": "absolute"
+  },
+  "depth": 4
+ },
+ {
+  "tag": "a",
+  "href": "/",
+  "box": {
+   "x": 40,
+   "y": 20,
+   "w": 160,
+   "h": 43
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-971x263_v-fs_webp_1aaf178d-68f2-4b33-a119-3048e6028a78_small.webp",
+  "box": {
+   "x": 40,
+   "y": 20,
+   "w": 160,
+   "h": 43
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "a",
+  "text": "事業紹介",
+  "href": "/#business",
+  "box": {
+   "x": 265,
+   "y": 27,
+   "w": 69,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "会社情報",
+  "href": "/company",
+  "box": {
+   "x": 366,
+   "y": 27,
+   "w": 69,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "ニュース",
+  "href": "/news",
+  "box": {
+   "x": 467,
+   "y": 27,
+   "w": 68,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "イベント運営",
+  "href": "/event",
+  "box": {
+   "x": 568,
+   "y": 27,
+   "w": 104,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "KASUMINブログ",
+  "href": "https://note.com/kasumin977",
+  "target": "_blank",
+  "box": {
+   "x": 703,
+   "y": 27,
+   "w": 139,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "お問い合わせ",
+  "href": "/contact",
+  "box": {
+   "x": 874,
+   "y": 27,
+   "w": 104,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "button",
+  "hidden": true,
+  "text": ""
+ },
+ {
+  "tag": "div",
+  "hidden": true,
+  "text": "【ご報告】クラウドファンディング目標達成のお礼と、今後の事業展開について"
+ },
+ {
+  "tag": "h1",
+  "text": "【ご報告】クラウドファンディング目標達成のお礼と、今後の事業展開について",
+  "box": {
+   "x": 424,
+   "y": 130,
+   "w": 592,
+   "h": 192
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "40px",
+   "fw": "400",
+   "lh": "64px",
+   "ls": "1.6px",
+   "color": "rgb(51, 51, 51)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "p",
+  "text": "作成更新日：",
+  "box": {
+   "x": 658,
+   "y": 346,
+   "w": 72,
+   "h": 19
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "12px",
+   "fw": "400",
+   "lh": "19.2px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "2026.2.12",
+  "box": {
+   "x": 730,
+   "y": 346,
+   "w": 52,
+   "h": 19
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "12px",
+   "fw": "400",
+   "lh": "19.2px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-1280x670_v-fms_webp_42a8decd-389a-43dc-9aaa-1568b748315d_middle.webp",
+  "box": {
+   "x": 204,
+   "y": 413,
+   "w": 1032,
+   "h": 541
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "br": "8px",
+   "pos": "relative",
+   "border": "1px solid rgba(23, 26, 49, 0.3)"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "div",
+  "hidden": true,
+  "text": "2026.2.12"
+ },
+ {
+  "tag": "p",
+  "text": "いつも「えんまーる」を温かく応援いただき、誠にありがとうございます。",
+  "box": {
+   "x": 424,
+   "y": 1012,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "2026年2月12日をもちまして、弊社が挑戦しておりましたクラウドファンディングが無事に終了いたしました。まずは、多大なるご支援をいただいた皆様に、心より感謝申し上げます。",
+  "box": {
+   "x": 424,
+   "y": 1050,
+   "w": 592,
+   "h": 84
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-994x1647_v-fms_webp_27955a94-2f4b-48dc-833f-0ae3e3d89feb_middle.webp",
+  "box": {
+   "x": 424,
+   "y": 1174,
+   "w": 592,
+   "h": 981
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "■ 支援の結果について",
+  "box": {
+   "x": 424,
+   "y": 2195,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "目標金額：1,000,000円",
+  "box": {
+   "x": 424,
+   "y": 2233,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "最終支援額：1,067,000円（達成率 106.7%）",
+  "box": {
+   "x": 424,
+   "y": 2271,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "ご支援者数：約８０名",
+  "box": {
+   "x": 424,
+   "y": 2309,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "初めての挑戦であり、正直なところ不安に思う瞬間もありました。しかし、全国各地から寄せられた温かい応援コメントやメッセージが、私の背中を何度も押してくださいました。この結果は、私一人の力ではなく、保育の未来を共に願ってくださる皆様と一緒に成し遂げたものだと強く実感しております。",
+  "box": {
+   "x": 424,
+   "y": 2347,
+   "w": 592,
+   "h": 112
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "■ クラウドファンディングに挑戦した理由",
+  "box": {
+   "x": 424,
+   "y": 2495,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "現在、社会問題となっている「保育士不足」。この課題を解決するためには、国の政策を待つだけでなく、現場に近い立場から具体的な「仕組み」を作らなければならない。その強い想いで「えんまーる」は立ち上がりました。",
+  "box": {
+   "x": 424,
+   "y": 2533,
+   "w": 592,
+   "h": 84
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "現場でのヒアリングを通じ、「KASUMINだからお願いしたい」というお声をいただいたことも、私の覚悟をより確かなものにしてくれました。",
+  "box": {
+   "x": 424,
+   "y": 2627,
+   "w": 592,
+   "h": 56
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "■ 今後の資金の使い道と展望",
+  "box": {
+   "x": 424,
+   "y": 2719,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "皆様からお預かりした大切なご支援金は、以下の活動に充てさせていただきます。",
+  "box": {
+   "x": 424,
+   "y": 2757,
+   "w": 592,
+   "h": 56
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "「えんまーる」マッチングプラットフォームの開発・改善費用",
+  "box": {
+   "x": 424,
+   "y": 2849,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "保育現場へのヒアリング・ニーズ調査の拡充",
+  "box": {
+   "x": 424,
+   "y": 2887,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "保育士の皆様がより働きやすい環境づくりのための広報活動",
+  "box": {
+   "x": 424,
+   "y": 2925,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "私たちは「行動し、継続し、改善していく」ことを止めません。全国で応援してくださる皆様に胸を張って届けられるよう、覚悟を持って結果を出してまいります。",
+  "box": {
+   "x": 424,
+   "y": 2963,
+   "w": 592,
+   "h": 84
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "子どもたちの未来のために、笑顔あふれる世界をつくる。",
+  "box": {
+   "x": 424,
+   "y": 3057,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "その志を胸に、これからも一歩ずつ着実に進んでまいります。",
+  "box": {
+   "x": 424,
+   "y": 3095,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "今後とも「えんまーる」の挑戦を温かく見守っていただければ幸いです。",
+  "box": {
+   "x": 424,
+   "y": 3133,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "h1",
+  "text": "💡",
+  "box": {
+   "x": 424,
+   "y": 3227,
+   "w": 592,
+   "h": 82
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "40px",
+   "fw": "400",
+   "lh": "70px",
+   "ls": "1.6px",
+   "color": "rgb(51, 51, 51)",
+   "ta": "center"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "strong",
+  "text": "「えんまーる」と共に、",
+  "box": {
+   "x": 533,
+   "y": 3248,
+   "w": 449,
+   "h": 40
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "40px",
+   "fw": "700",
+   "lh": "64px",
+   "ls": "0.8px",
+   "color": "rgb(51, 51, 51)",
+   "ta": "center"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "strong",
+  "text": "新しい保育のカタチを作りませんか？",
+  "box": {
+   "x": 434,
+   "y": 3370,
+   "w": 571,
+   "h": 110
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "40px",
+   "fw": "700",
+   "lh": "64px",
+   "ls": "0.8px",
+   "color": "rgb(51, 51, 51)",
+   "ta": "center"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "今回のクラウドファンディング達成を大きな一歩として、私たちは現場の課題を解決する「具体的な仕組み」を本格的に動かしていきます。",
+  "box": {
+   "x": 424,
+   "y": 3521,
+   "w": 592,
+   "h": 56
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "「人手不足で困っている」「もう一度、自分らしく保育がしたい」",
+  "box": {
+   "x": 424,
+   "y": 3587,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "そんな想いを持つ皆様と、まずは繋がれることを心待ちにしています。",
+  "box": {
+   "x": 424,
+   "y": 3625,
+   "w": 592,
+   "h": 28
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "strong",
+  "text": "【保育園・施設の関係者様へ】",
+  "box": {
+   "x": 444,
+   "y": 3693,
+   "w": 228,
+   "h": 19
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "700",
+   "lh": "25.6px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "「現状の採用ではうまくいかない」「現場の負担を本気で減らしたい」とお考えの園様、ぜひ一度意見交換をさせていただけませんか？",
+  "box": {
+   "x": 444,
+   "y": 3727,
+   "w": 572,
+   "h": 56
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "p",
+  "text": "「こんな働き方ができたら復帰したい」「資格を活かしてこんなことに挑戦したい」というお声を、ぜひお聞かせください！",
+  "box": {
+   "x": 444,
+   "y": 3793,
+   "w": 572,
+   "h": 56
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "strong",
+  "text": "【保育士の皆様へ】",
+  "box": {
+   "x": 444,
+   "y": 3797,
+   "w": 147,
+   "h": 19
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "700",
+   "lh": "25.6px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "公式LINEでは、サービス開始のお知らせや、代表・平田への直接のメッセージも受け付けています。",
+  "box": {
+   "x": 424,
+   "y": 3859,
+   "w": 592,
+   "h": 56
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "strong",
+  "text": "＼ まずはお気軽に繋がってください！ ／",
+  "box": {
+   "x": 424,
+   "y": 3863,
+   "w": 304,
+   "h": 19
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "700",
+   "lh": "25.6px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "a",
+  "href": "https://lin.ee/9eM8T0d",
+  "target": "_blank",
+  "box": {
+   "x": 424,
+   "y": 3929,
+   "w": 225,
+   "h": 19
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(0, 124, 255)"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "strong",
+  "text": "▶︎ 公式LINEで相談・登録する",
+  "box": {
+   "x": 424,
+   "y": 3929,
+   "w": 225,
+   "h": 19
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "700",
+   "lh": "25.6px",
+   "ls": "0.32px",
+   "color": "rgb(0, 124, 255)"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "strong",
+  "text": "日々の活動も発信中！",
+  "box": {
+   "x": 424,
+   "y": 3990,
+   "w": 204,
+   "h": 24
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "20px",
+   "fw": "700",
+   "lh": "32px",
+   "ls": "0.4px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "Instagramでは、クラウドファンディング後の動きやサービスの開発状況・取り組みなども発信しています。ぜひフォローをお願いします！",
+  "box": {
+   "x": 424,
+   "y": 4030,
+   "w": 592,
+   "h": 56
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "href": "https://www.instagram.com/kasumin.jasmine/",
+  "target": "_blank",
+  "box": {
+   "x": 424,
+   "y": 4100,
+   "w": 209,
+   "h": 19
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28px",
+   "ls": "0.32px",
+   "color": "rgb(0, 124, 255)"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "strong",
+  "text": "▶︎ 公式Instagramはこちら",
+  "box": {
+   "x": 424,
+   "y": 4100,
+   "w": 209,
+   "h": 19
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "700",
+   "lh": "25.6px",
+   "ls": "0.32px",
+   "color": "rgb(0, 124, 255)"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "a",
+  "href": "/news",
+  "box": {
+   "x": 53,
+   "y": 4214,
+   "w": 1307,
+   "h": 27
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 8
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-0_1_1_f5bf0320-a9ac-4130-9e0d-5e15ab0c9726]:befor"
+ },
+ {
+  "tag": "p",
+  "text": "一覧へ戻る",
+  "box": {
+   "x": 685,
+   "y": 4214,
+   "w": 73,
+   "h": 26
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "0.56px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "a",
+  "href": "/news/crowdfunding-success#top",
+  "box": {
+   "x": 1380,
+   "y": 840,
+   "w": 60,
+   "h": 60
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(244, 167, 185)",
+   "br": "4px 0px 0px",
+   "pos": "relative"
+  },
+  "depth": 8
+ },
+ {
+  "tag": "p",
+  "text": "Follow us",
+  "box": {
+   "x": 160,
+   "y": 4434,
+   "w": 67,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "a",
+  "href": "https://www.instagram.com/kasumin.jasmine/",
+  "target": "_blank",
+  "box": {
+   "x": 259,
+   "y": 4437,
+   "w": 18,
+   "h": 20
+  },
+  "style": {
+   "ff": "Font Awesome 6 Brands",
+   "fs": "20px",
+   "fw": "400",
+   "lh": "20px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "活動紹介",
+  "href": "/#business",
+  "box": {
+   "x": 160,
+   "y": 4524,
+   "w": 56,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "会社情報",
+  "href": "/company",
+  "box": {
+   "x": 248,
+   "y": 4524,
+   "w": 56,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "ニュース",
+  "href": "/news",
+  "box": {
+   "x": 336,
+   "y": 4524,
+   "w": 55,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "イベント運営",
+  "href": "/event",
+  "box": {
+   "x": 423,
+   "y": 4524,
+   "w": 84,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "KASUMINブログ",
+  "href": "https://note.com/kasumin977",
+  "target": "_blank",
+  "box": {
+   "x": 539,
+   "y": 4524,
+   "w": 110,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "お問い合わせ",
+  "href": "/contact",
+  "box": {
+   "x": 682,
+   "y": 4524,
+   "w": 84,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "href": "/",
+  "box": {
+   "x": 160,
+   "y": 4614,
+   "w": 200,
+   "h": 54
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-971x263_v-fs_webp_1aaf178d-68f2-4b33-a119-3048e6028a78_small.webp",
+  "box": {
+   "x": 160,
+   "y": 4614,
+   "w": 200,
+   "h": 54
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "a",
+  "text": "プライバシーポリシー",
+  "href": "/privacy_policy",
+  "target": "_blank",
+  "box": {
+   "x": 392,
+   "y": 4628,
+   "w": 140,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "a",
+  "text": "サイトポリシー",
+  "href": "/site_policy",
+  "target": "_blank",
+  "box": {
+   "x": 564,
+   "y": 4628,
+   "w": 98,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "Copyright © 2025 KASUMIN, Inc. All rights reserved.",
+  "box": {
+   "x": 916,
+   "y": 4634,
+   "w": 364,
+   "h": 14
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ":root {--s-color-dc80cf2d: #ffffffff;--s-color-f0967a6f: #f9"
+ },
+ {
+  "tag": "script",
+  "hidden": true,
+  "text": "window.__NUXT__={};window.__NUXT__.config={public:{apiBaseUr"
+ },
+ {
+  "tag": "script",
+  "hidden": true,
+  "text": "[[\"ShallowReactive\",1],{\"data\":2,\"state\":79,\"once\":81,\"_erro"
+ }
+]

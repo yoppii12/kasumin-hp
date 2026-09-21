@@ -1,0 +1,960 @@
+[
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": "br[data-bp~=\"base:0\"]{display:none;}\nbr[data-bp~=\"base:1\"]{d"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-f48f3aab-31e1-40b3-a2b9-3f5628d4b2be] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-6ee651e8-88d5-47a6-8f57-288717145264] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-28b5addf-0e19-40c0-91cd-da2d65c59bcc] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-069937e9-ffba-44fe-8f08-08aa529e2710] { backgroun"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": "body { background: #fff; transition: background 0.5s cubic-b"
+ },
+ {
+  "tag": "div",
+  "text": "保育士・保護者・地域の笑顔をつなぐKASUMIN 読み込まれました",
+  "box": {
+   "x": -1,
+   "y": -1,
+   "w": 1,
+   "h": 1
+  },
+  "style": {
+   "ff": "Times New Roman",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(0, 0, 0)",
+   "pos": "absolute"
+  },
+  "depth": 4
+ },
+ {
+  "tag": "a",
+  "href": "/",
+  "box": {
+   "x": 40,
+   "y": 20,
+   "w": 160,
+   "h": 43
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-971x263_v-fs_webp_1aaf178d-68f2-4b33-a119-3048e6028a78_small.webp",
+  "box": {
+   "x": 40,
+   "y": 20,
+   "w": 160,
+   "h": 43
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "a",
+  "text": "事業紹介",
+  "href": "/#business",
+  "box": {
+   "x": 265,
+   "y": 27,
+   "w": 69,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "会社情報",
+  "href": "/company",
+  "box": {
+   "x": 366,
+   "y": 27,
+   "w": 69,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "ニュース",
+  "href": "/news",
+  "box": {
+   "x": 467,
+   "y": 27,
+   "w": 68,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "イベント運営",
+  "href": "/event",
+  "box": {
+   "x": 568,
+   "y": 27,
+   "w": 104,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "KASUMINブログ",
+  "href": "https://note.com/kasumin977",
+  "target": "_blank",
+  "box": {
+   "x": 703,
+   "y": 27,
+   "w": 139,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "お問い合わせ",
+  "href": "/contact",
+  "box": {
+   "x": 874,
+   "y": 27,
+   "w": 104,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "button",
+  "hidden": true,
+  "text": ""
+ },
+ {
+  "tag": "h1",
+  "text": "Privacy Policy",
+  "box": {
+   "x": 569,
+   "y": 112,
+   "w": 301,
+   "h": 80
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "40px",
+   "fw": "500",
+   "lh": "80px",
+   "ls": "1.6px",
+   "color": "rgb(51, 51, 51)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "p",
+  "text": "本ウェブサイトは、合同会社KASUMIN（以下「当社」）の事業内容等を紹介するサイトです。",
+  "box": {
+   "x": 280,
+   "y": 272,
+   "w": 880,
+   "h": 22
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "h2",
+  "text": "プライバシーポリシー",
+  "box": {
+   "x": 280,
+   "y": 350,
+   "w": 880,
+   "h": 45
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "28px",
+   "fw": "600",
+   "lh": "44.8px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "h3",
+  "text": "個人情報保護方針",
+  "box": {
+   "x": 280,
+   "y": 395,
+   "w": 880,
+   "h": 38
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "24px",
+   "fw": "600",
+   "lh": "38.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "当社は、以下のとおり個人情報保護方針を定め、個人情報保護の仕組みを構築し、全従業員に個人情報保護の重要性の認識と取組みを徹底させることにより、個人情報の保護を推進致します。",
+  "box": {
+   "x": 280,
+   "y": 434,
+   "w": 880,
+   "h": 45
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "h3",
+  "text": "個人情報の管理",
+  "box": {
+   "x": 280,
+   "y": 520,
+   "w": 880,
+   "h": 38
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "24px",
+   "fw": "600",
+   "lh": "38.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "当社は、お客さまの個人情報を正確かつ最新の状態に保ち、個人情報への不正アクセス・紛失・破損・改ざん・漏洩などを防止するため、セキュリティシステムの維持・管理体制の整備・社員教育の徹底等の必要な措置を講じ、安全対策を実施し個人情報の厳重な管理を行ないます。",
+  "box": {
+   "x": 280,
+   "y": 559,
+   "w": 880,
+   "h": 67
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "h3",
+  "text": "個人情報の利用目的",
+  "box": {
+   "x": 280,
+   "y": 668,
+   "w": 880,
+   "h": 38
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "24px",
+   "fw": "600",
+   "lh": "38.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "本ウェブサイトでは、お客様からのお問い合わせ時に、お名前、e-mailアドレス、電話番号等の個人情報をご登録いただく場合がございますが、これらの個人情報はご提供いただく際の目的以外では利用いたしません。お客さまからお預かりした個人情報は、当社からのご連絡や業務のご案内やご質問に対する回答として、電子メールや資料のご送付に利用いたします。",
+  "box": {
+   "x": 280,
+   "y": 706,
+   "w": 880,
+   "h": 67
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "h3",
+  "text": "個人情報の第三者への開示・提供の禁止",
+  "box": {
+   "x": 280,
+   "y": 815,
+   "w": 880,
+   "h": 38
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "24px",
+   "fw": "600",
+   "lh": "38.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "当社は、お客さまよりお預かりした個人情報を適切に管理し、次のいずれかに該当する場合を除き、個人情報を第三者に開示いたしません。",
+  "box": {
+   "x": 280,
+   "y": 854,
+   "w": 880,
+   "h": 45
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "h3",
+  "text": "お客さまの同意がある場合",
+  "box": {
+   "x": 280,
+   "y": 955,
+   "w": 880,
+   "h": 38
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "24px",
+   "fw": "600",
+   "lh": "38.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "お客さまが希望されるサービスを行なうために当社が業務を委託する業者に対して開示する場合法令に基づき開示することが必要である場合個人情報の安全対策当社は、個人情報の正確性及び安全性確保のために、セキュリティに万全の対策を講じています。",
+  "box": {
+   "x": 280,
+   "y": 993,
+   "w": 880,
+   "h": 90
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "h3",
+  "text": "ご本人の照会",
+  "box": {
+   "x": 280,
+   "y": 1139,
+   "w": 880,
+   "h": 38
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "24px",
+   "fw": "600",
+   "lh": "38.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "お客さまがご本人の個人情報の照会・修正・削除などをご希望される場合には、ご本人であることを確認の上、対応させていただきます。",
+  "box": {
+   "x": 280,
+   "y": 1177,
+   "w": 880,
+   "h": 22
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "h3",
+  "text": "法令、規範の遵守と見直し",
+  "box": {
+   "x": 280,
+   "y": 1241,
+   "w": 880,
+   "h": 38
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "24px",
+   "fw": "600",
+   "lh": "38.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "当社は、保有する個人情報に関して適用される日本の法令、その他規範を遵守するとともに、本ポリシーの内容を適宜見直し、その改善に努めます。お問い合せ当社の個人情報の取扱に関するお問い合せは下記までご連絡ください。",
+  "box": {
+   "x": 280,
+   "y": 1280,
+   "w": 880,
+   "h": 67
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "合同会社KASUMIN〒850-0054 長崎県長崎市上町4-37",
+  "box": {
+   "x": 280,
+   "y": 1387,
+   "w": 218,
+   "h": 45
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "お問い合わせはこちら",
+  "href": "/contact",
+  "box": {
+   "x": 280,
+   "y": 1448,
+   "w": 140,
+   "h": 22
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "22.4px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "href": "/",
+  "box": {
+   "x": 253,
+   "y": 1550,
+   "w": 907,
+   "h": 27
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-0_2_0_1_bbfe86e7-3eb3-4997-867b-62a496e5fcca]:bef"
+ },
+ {
+  "tag": "p",
+  "text": "HOME",
+  "box": {
+   "x": 697,
+   "y": 1550,
+   "w": 48,
+   "h": 26
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "0.56px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "a",
+  "href": "/privacy_policy#top",
+  "box": {
+   "x": 1380,
+   "y": 840,
+   "w": 60,
+   "h": 60
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(244, 167, 185)",
+   "br": "4px 0px 0px",
+   "pos": "relative"
+  },
+  "depth": 8
+ },
+ {
+  "tag": "p",
+  "text": "Follow us",
+  "box": {
+   "x": 160,
+   "y": 1770,
+   "w": 67,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "a",
+  "href": "https://www.instagram.com/kasumin.jasmine/",
+  "target": "_blank",
+  "box": {
+   "x": 259,
+   "y": 1773,
+   "w": 18,
+   "h": 20
+  },
+  "style": {
+   "ff": "Font Awesome 6 Brands",
+   "fs": "20px",
+   "fw": "400",
+   "lh": "20px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "活動紹介",
+  "href": "/#business",
+  "box": {
+   "x": 160,
+   "y": 1860,
+   "w": 56,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "会社情報",
+  "href": "/company",
+  "box": {
+   "x": 248,
+   "y": 1860,
+   "w": 56,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "ニュース",
+  "href": "/news",
+  "box": {
+   "x": 336,
+   "y": 1860,
+   "w": 55,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "イベント運営",
+  "href": "/event",
+  "box": {
+   "x": 423,
+   "y": 1860,
+   "w": 84,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "KASUMINブログ",
+  "href": "https://note.com/kasumin977",
+  "target": "_blank",
+  "box": {
+   "x": 539,
+   "y": 1860,
+   "w": 110,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "お問い合わせ",
+  "href": "/contact",
+  "box": {
+   "x": 682,
+   "y": 1860,
+   "w": 84,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "href": "/",
+  "box": {
+   "x": 160,
+   "y": 1950,
+   "w": 200,
+   "h": 54
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-971x263_v-fs_webp_1aaf178d-68f2-4b33-a119-3048e6028a78_small.webp",
+  "box": {
+   "x": 160,
+   "y": 1950,
+   "w": 200,
+   "h": 54
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "a",
+  "text": "プライバシーポリシー",
+  "href": "/privacy_policy",
+  "target": "_blank",
+  "box": {
+   "x": 392,
+   "y": 1964,
+   "w": 140,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "a",
+  "text": "サイトポリシー",
+  "href": "/site_policy",
+  "target": "_blank",
+  "box": {
+   "x": 564,
+   "y": 1964,
+   "w": 98,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "Copyright © 2025 KASUMIN, Inc. All rights reserved.",
+  "box": {
+   "x": 916,
+   "y": 1970,
+   "w": 364,
+   "h": 14
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ":root {--s-color-dc80cf2d: #ffffffff;--s-color-f0967a6f: #f9"
+ },
+ {
+  "tag": "script",
+  "hidden": true,
+  "text": "window.__NUXT__={};window.__NUXT__.config={public:{apiBaseUr"
+ },
+ {
+  "tag": "script",
+  "hidden": true,
+  "text": "[[\"ShallowReactive\",1],{\"data\":2,\"state\":5,\"once\":7,\"_errors"
+ }
+]

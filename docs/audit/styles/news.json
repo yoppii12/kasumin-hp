@@ -1,0 +1,1404 @@
+[
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": "br[data-bp~=\"base:0\"]{display:none;}\nbr[data-bp~=\"base:1\"]{d"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-f48f3aab-31e1-40b3-a2b9-3f5628d4b2be] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-28b5addf-0e19-40c0-91cd-da2d65c59bcc] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-fe160a1a-9993-4c61-9f0b-3f5cd265faad] { backgroun"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": "body { background: #fff; transition: background 0.5s cubic-b"
+ },
+ {
+  "tag": "div",
+  "text": "保育士・保護者・地域の笑顔をつなぐKASUMIN 読み込まれました",
+  "box": {
+   "x": -1,
+   "y": -1,
+   "w": 1,
+   "h": 1
+  },
+  "style": {
+   "ff": "Times New Roman",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(0, 0, 0)",
+   "pos": "absolute"
+  },
+  "depth": 4
+ },
+ {
+  "tag": "a",
+  "href": "/",
+  "box": {
+   "x": 40,
+   "y": 20,
+   "w": 160,
+   "h": 43
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-971x263_v-fs_webp_1aaf178d-68f2-4b33-a119-3048e6028a78_small.webp",
+  "box": {
+   "x": 40,
+   "y": 20,
+   "w": 160,
+   "h": 43
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "a",
+  "text": "事業紹介",
+  "href": "/#business",
+  "box": {
+   "x": 265,
+   "y": 27,
+   "w": 69,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "会社情報",
+  "href": "/company",
+  "box": {
+   "x": 366,
+   "y": 27,
+   "w": 69,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "ニュース",
+  "href": "/news",
+  "box": {
+   "x": 467,
+   "y": 27,
+   "w": 68,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "イベント運営",
+  "href": "/event",
+  "box": {
+   "x": 568,
+   "y": 27,
+   "w": 104,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "KASUMINブログ",
+  "href": "https://note.com/kasumin977",
+  "target": "_blank",
+  "box": {
+   "x": 703,
+   "y": 27,
+   "w": 139,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "お問い合わせ",
+  "href": "/contact",
+  "box": {
+   "x": 874,
+   "y": 27,
+   "w": 104,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "button",
+  "hidden": true,
+  "text": ""
+ },
+ {
+  "tag": "h1",
+  "text": "ニュース",
+  "box": {
+   "x": 640,
+   "y": 112,
+   "w": 160,
+   "h": 64
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "40px",
+   "fw": "400",
+   "lh": "64px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "a",
+  "href": "/news/category/all",
+  "box": {
+   "x": 429,
+   "y": 209,
+   "w": 104,
+   "h": 42
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(244, 167, 185)",
+   "br": "32px",
+   "pos": "relative",
+   "border": "1px solid rgba(0, 0, 0, 0)"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "All",
+  "box": {
+   "x": 470,
+   "y": 222,
+   "w": 22,
+   "h": 16
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "0.8px",
+   "color": "rgb(255, 255, 255)",
+   "pos": "relative"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "a",
+  "href": "/news/category/news",
+  "box": {
+   "x": 549,
+   "y": 209,
+   "w": 149,
+   "h": 42
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "br": "32px",
+   "pos": "relative",
+   "border": "1px solid rgba(0, 0, 0, 0)"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "お知らせ",
+  "box": {
+   "x": 590,
+   "y": 222,
+   "w": 67,
+   "h": 16
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "0.8px",
+   "color": "rgb(244, 167, 185)",
+   "pos": "relative"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "a",
+  "href": "/news/category/activity-report",
+  "box": {
+   "x": 714,
+   "y": 209,
+   "w": 149,
+   "h": 42
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "br": "32px",
+   "pos": "relative",
+   "border": "1px solid rgba(0, 0, 0, 0)"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "活動報告",
+  "box": {
+   "x": 755,
+   "y": 222,
+   "w": 67,
+   "h": 16
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "0.8px",
+   "color": "rgb(244, 167, 185)",
+   "pos": "relative"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "a",
+  "href": "/news/category/other",
+  "box": {
+   "x": 879,
+   "y": 209,
+   "w": 132,
+   "h": 42
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "br": "32px",
+   "pos": "relative",
+   "border": "1px solid rgba(0, 0, 0, 0)"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "その他",
+  "box": {
+   "x": 920,
+   "y": 222,
+   "w": 50,
+   "h": 16
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "0.8px",
+   "color": "rgb(244, 167, 185)",
+   "pos": "relative"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "a",
+  "href": "/news/p8LHv6pB",
+  "box": {
+   "x": 204,
+   "y": 340,
+   "w": 328,
+   "h": 423
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "br": "8px",
+   "pos": "relative",
+   "border": "1px solid rgba(244, 167, 185, 0.2)"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "img",
+  "hidden": true,
+  "text": ""
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-0_0_0_2_1_46ca386c-2f02-4369-94d5-ed7970ee884f]:b"
+ },
+ {
+  "tag": "p",
+  "text": "お知らせ",
+  "box": {
+   "x": 229,
+   "y": 549,
+   "w": 48,
+   "h": 12
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "12px",
+   "fw": "400",
+   "lh": "12px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "【お知らせ】『えんまーる』の新公式サイト公開！保育士さん＆保育園様の募集を本格スタートいたしました！",
+  "box": {
+   "x": 229,
+   "y": 569,
+   "w": 278,
+   "h": 128
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "20px",
+   "fw": "400",
+   "lh": "32px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "2026.8.1",
+  "box": {
+   "x": 229,
+   "y": 711,
+   "w": 54,
+   "h": 27
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-1_1_0_1_0_0_2_1_f41126e4-9c36-437b-a1ba-daeaed674"
+ },
+ {
+  "tag": "a",
+  "href": "/news/enmaru-test-release",
+  "box": {
+   "x": 556,
+   "y": 340,
+   "w": 328,
+   "h": 423
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "br": "8px",
+   "pos": "relative",
+   "border": "1px solid rgba(244, 167, 185, 0.2)"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "img",
+  "hidden": true,
+  "text": ""
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-0_1_0_2_1_46ca386c-2f02-4369-94d5-ed7970ee884f]:b"
+ },
+ {
+  "tag": "p",
+  "text": "All",
+  "box": {
+   "x": 581,
+   "y": 549,
+   "w": 15,
+   "h": 12
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "12px",
+   "fw": "400",
+   "lh": "12px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "保育士×保育園をやさしくつなぐマッチングプラットフォーム『えんまーる』テストオープンのお知らせ",
+  "box": {
+   "x": 581,
+   "y": 569,
+   "w": 278,
+   "h": 128
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "20px",
+   "fw": "400",
+   "lh": "32px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "2026.5.31",
+  "box": {
+   "x": 581,
+   "y": 711,
+   "w": 61,
+   "h": 27
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-1_1_0_1_1_0_2_1_f41126e4-9c36-437b-a1ba-daeaed674"
+ },
+ {
+  "tag": "a",
+  "href": "/news/WCpgpgS6",
+  "box": {
+   "x": 908,
+   "y": 340,
+   "w": 328,
+   "h": 423
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "br": "8px",
+   "pos": "relative",
+   "border": "1px solid rgba(244, 167, 185, 0.2)"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "img",
+  "hidden": true,
+  "text": ""
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-0_2_0_2_1_46ca386c-2f02-4369-94d5-ed7970ee884f]:b"
+ },
+ {
+  "tag": "p",
+  "text": "お知らせ",
+  "box": {
+   "x": 933,
+   "y": 549,
+   "w": 48,
+   "h": 12
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "12px",
+   "fw": "400",
+   "lh": "12px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "【メディア掲載】長崎新聞に「えんまーる」の活動が紹介されました。保育の未来をつなぐ「縁」への想い",
+  "box": {
+   "x": 933,
+   "y": 569,
+   "w": 278,
+   "h": 128
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "20px",
+   "fw": "400",
+   "lh": "32px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "2026.4.24",
+  "box": {
+   "x": 933,
+   "y": 711,
+   "w": 66,
+   "h": 27
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-1_1_0_1_2_0_2_1_f41126e4-9c36-437b-a1ba-daeaed674"
+ },
+ {
+  "tag": "a",
+  "href": "/news/media-nagasaki-np",
+  "box": {
+   "x": 204,
+   "y": 787,
+   "w": 328,
+   "h": 423
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "br": "8px",
+   "pos": "relative",
+   "border": "1px solid rgba(244, 167, 185, 0.2)"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "img",
+  "hidden": true,
+  "text": ""
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-0_3_0_2_1_46ca386c-2f02-4369-94d5-ed7970ee884f]:b"
+ },
+ {
+  "tag": "p",
+  "text": "活動報告",
+  "box": {
+   "x": 229,
+   "y": 996,
+   "w": 48,
+   "h": 12
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "12px",
+   "fw": "400",
+   "lh": "12px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "【メディア掲載】長崎新聞に弊社の取り組みが紹介されました",
+  "box": {
+   "x": 229,
+   "y": 1016,
+   "w": 278,
+   "h": 96
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "20px",
+   "fw": "400",
+   "lh": "32px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "2026.2.17",
+  "box": {
+   "x": 229,
+   "y": 1158,
+   "w": 61,
+   "h": 27
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-1_1_0_1_3_0_2_1_f41126e4-9c36-437b-a1ba-daeaed674"
+ },
+ {
+  "tag": "a",
+  "href": "/news/award-grandprix",
+  "box": {
+   "x": 556,
+   "y": 787,
+   "w": 328,
+   "h": 423
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "br": "8px",
+   "pos": "relative",
+   "border": "1px solid rgba(244, 167, 185, 0.2)"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "img",
+  "hidden": true,
+  "text": ""
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-0_4_0_2_1_46ca386c-2f02-4369-94d5-ed7970ee884f]:b"
+ },
+ {
+  "tag": "p",
+  "text": "お知らせ",
+  "box": {
+   "x": 581,
+   "y": 996,
+   "w": 48,
+   "h": 12
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "12px",
+   "fw": "400",
+   "lh": "12px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "【受賞報告】起業家育成プログラム「コッコデショ！」にてグランプリを受賞しました！",
+  "box": {
+   "x": 581,
+   "y": 1016,
+   "w": 278,
+   "h": 128
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "20px",
+   "fw": "400",
+   "lh": "32px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "2026.2.14",
+  "box": {
+   "x": 581,
+   "y": 1158,
+   "w": 62,
+   "h": 27
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-1_1_0_1_4_0_2_1_f41126e4-9c36-437b-a1ba-daeaed674"
+ },
+ {
+  "tag": "a",
+  "href": "/news/crowdfunding-success",
+  "box": {
+   "x": 908,
+   "y": 787,
+   "w": 328,
+   "h": 423
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "br": "8px",
+   "pos": "relative",
+   "border": "1px solid rgba(244, 167, 185, 0.2)"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "img",
+  "hidden": true,
+  "text": ""
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-0_5_0_2_1_46ca386c-2f02-4369-94d5-ed7970ee884f]:b"
+ },
+ {
+  "tag": "p",
+  "text": "活動報告",
+  "box": {
+   "x": 933,
+   "y": 996,
+   "w": 48,
+   "h": 12
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "12px",
+   "fw": "400",
+   "lh": "12px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "【ご報告】クラウドファンディング目標達成のお礼と、今後の事業展開について",
+  "box": {
+   "x": 933,
+   "y": 1016,
+   "w": 278,
+   "h": 96
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "20px",
+   "fw": "400",
+   "lh": "32px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "p",
+  "text": "2026.2.12",
+  "box": {
+   "x": 933,
+   "y": 1158,
+   "w": 61,
+   "h": 27
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "normal",
+   "color": "rgb(102, 102, 102)",
+   "pos": "relative"
+  },
+  "depth": 14
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-1_1_0_1_5_0_2_1_f41126e4-9c36-437b-a1ba-daeaed674"
+ },
+ {
+  "tag": "button",
+  "box": {
+   "x": 622,
+   "y": 1234,
+   "w": 197,
+   "h": 44
+  },
+  "style": {
+   "ff": "Lato",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(244, 167, 185)",
+   "br": "48px",
+   "pos": "relative",
+   "border": "1px solid rgb(244, 167, 185)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "span",
+  "text": "View more",
+  "box": {
+   "x": 677,
+   "y": 1247,
+   "w": 87,
+   "h": 18
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(255, 255, 255)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "a",
+  "href": "/",
+  "box": {
+   "x": 177,
+   "y": 1358,
+   "w": 1059,
+   "h": 27
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-r-0_1_2_1_56e9b11a-0700-48e3-806e-a025fc680e1b]:bef"
+ },
+ {
+  "tag": "p",
+  "text": "HOME",
+  "box": {
+   "x": 697,
+   "y": 1358,
+   "w": 48,
+   "h": 26
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "0.56px",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "a",
+  "href": "/news#top",
+  "box": {
+   "x": 1380,
+   "y": 840,
+   "w": 60,
+   "h": 60
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(244, 167, 185)",
+   "br": "4px 0px 0px",
+   "pos": "relative"
+  },
+  "depth": 8
+ },
+ {
+  "tag": "p",
+  "text": "Follow us",
+  "box": {
+   "x": 160,
+   "y": 1578,
+   "w": 67,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "a",
+  "href": "https://www.instagram.com/kasumin.jasmine/",
+  "target": "_blank",
+  "box": {
+   "x": 259,
+   "y": 1581,
+   "w": 18,
+   "h": 20
+  },
+  "style": {
+   "ff": "Font Awesome 6 Brands",
+   "fs": "20px",
+   "fw": "400",
+   "lh": "20px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "活動紹介",
+  "href": "/#business",
+  "box": {
+   "x": 160,
+   "y": 1668,
+   "w": 56,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "会社情報",
+  "href": "/company",
+  "box": {
+   "x": 248,
+   "y": 1668,
+   "w": 56,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "ニュース",
+  "href": "/news",
+  "box": {
+   "x": 336,
+   "y": 1668,
+   "w": 55,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "イベント運営",
+  "href": "/event",
+  "box": {
+   "x": 423,
+   "y": 1668,
+   "w": 84,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "KASUMINブログ",
+  "href": "https://note.com/kasumin977",
+  "target": "_blank",
+  "box": {
+   "x": 539,
+   "y": 1668,
+   "w": 110,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "お問い合わせ",
+  "href": "/contact",
+  "box": {
+   "x": 682,
+   "y": 1668,
+   "w": 84,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "href": "/",
+  "box": {
+   "x": 160,
+   "y": 1757,
+   "w": 200,
+   "h": 54
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-971x263_v-fs_webp_1aaf178d-68f2-4b33-a119-3048e6028a78_small.webp",
+  "box": {
+   "x": 160,
+   "y": 1757,
+   "w": 200,
+   "h": 54
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "a",
+  "text": "プライバシーポリシー",
+  "href": "/privacy_policy",
+  "target": "_blank",
+  "box": {
+   "x": 392,
+   "y": 1772,
+   "w": 140,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "a",
+  "text": "サイトポリシー",
+  "href": "/site_policy",
+  "target": "_blank",
+  "box": {
+   "x": 564,
+   "y": 1772,
+   "w": 98,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "Copyright © 2025 KASUMIN, Inc. All rights reserved.",
+  "box": {
+   "x": 916,
+   "y": 1777,
+   "w": 364,
+   "h": 14
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ":root {--s-color-dc80cf2d: #ffffffff;--s-color-f0967a6f: #f9"
+ },
+ {
+  "tag": "script",
+  "hidden": true,
+  "text": "window.__NUXT__={};window.__NUXT__.config={public:{apiBaseUr"
+ },
+ {
+  "tag": "script",
+  "hidden": true,
+  "text": "[[\"ShallowReactive\",1],{\"data\":2,\"state\":5,\"once\":7,\"_errors"
+ }
+]

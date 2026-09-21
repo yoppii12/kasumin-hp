@@ -1,0 +1,1227 @@
+[
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": "br[data-bp~=\"base:0\"]{display:none;}\nbr[data-bp~=\"base:1\"]{d"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-f48f3aab-31e1-40b3-a2b9-3f5628d4b2be] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-6ee651e8-88d5-47a6-8f57-288717145264] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-28b5addf-0e19-40c0-91cd-da2d65c59bcc] { align-con"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ".sd[data-s-3e2a8f88-4bf6-4e7f-b825-20e20fe2d175] { backgroun"
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": "body { background: #fff; transition: background 0.5s cubic-b"
+ },
+ {
+  "tag": "div",
+  "text": "保育士・保護者・地域の笑顔をつなぐKASUMIN 読み込まれました",
+  "box": {
+   "x": -1,
+   "y": -1,
+   "w": 1,
+   "h": 1
+  },
+  "style": {
+   "ff": "Times New Roman",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "normal",
+   "ls": "normal",
+   "color": "rgb(0, 0, 0)",
+   "pos": "absolute"
+  },
+  "depth": 4
+ },
+ {
+  "tag": "a",
+  "href": "/",
+  "box": {
+   "x": 40,
+   "y": 20,
+   "w": 160,
+   "h": 43
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-971x263_v-fs_webp_1aaf178d-68f2-4b33-a119-3048e6028a78_small.webp",
+  "box": {
+   "x": 40,
+   "y": 20,
+   "w": 160,
+   "h": 43
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "a",
+  "text": "事業紹介",
+  "href": "/#business",
+  "box": {
+   "x": 265,
+   "y": 27,
+   "w": 69,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "会社情報",
+  "href": "/company",
+  "box": {
+   "x": 366,
+   "y": 27,
+   "w": 69,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "ニュース",
+  "href": "/news",
+  "box": {
+   "x": 467,
+   "y": 27,
+   "w": 68,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "イベント運営",
+  "href": "/event",
+  "box": {
+   "x": 568,
+   "y": 27,
+   "w": 104,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "KASUMINブログ",
+  "href": "https://note.com/kasumin977",
+  "target": "_blank",
+  "box": {
+   "x": 703,
+   "y": 27,
+   "w": 139,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "お問い合わせ",
+  "href": "/contact",
+  "box": {
+   "x": 874,
+   "y": 27,
+   "w": 104,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "button",
+  "hidden": true,
+  "text": ""
+ },
+ {
+  "tag": "h1",
+  "text": "Contact",
+  "box": {
+   "x": 635,
+   "y": 112,
+   "w": 171,
+   "h": 80
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "40px",
+   "fw": "500",
+   "lh": "80px",
+   "ls": "1.6px",
+   "color": "rgb(51, 51, 51)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "p",
+  "text": "下記フォームへ必要事項をご記入の上、送信してください。3営業以内に担当者からご返答いたします。",
+  "box": {
+   "x": 400,
+   "y": 216,
+   "w": 431,
+   "h": 51
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "25.6px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 9
+ },
+ {
+  "tag": "p",
+  "text": "お問い合わせ種別",
+  "box": {
+   "x": 400,
+   "y": 308,
+   "w": 120,
+   "h": 15
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "15px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "*",
+  "box": {
+   "x": 520,
+   "y": 307,
+   "w": 11,
+   "h": 17
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "13px",
+   "fw": "500",
+   "lh": "13px",
+   "ls": "0.65px",
+   "color": "rgb(242, 58, 60)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "select",
+  "box": {
+   "x": 400,
+   "y": 334,
+   "w": 640,
+   "h": 53
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(255, 255, 255)",
+   "br": "4px",
+   "pos": "relative",
+   "border": "1px solid rgb(238, 238, 238)"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "option",
+  "text": "選択してください",
+  "box": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "option",
+  "text": "サービスに関するお問合せ",
+  "box": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "option",
+  "text": "パートナーシップ・共同研究に関するお問合せ",
+  "box": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "option",
+  "text": "採用に関するお問合せ",
+  "box": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "option",
+  "text": "取材・講演に関するお問合せ",
+  "box": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "option",
+  "text": "その他のお問合せ",
+  "box": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)"
+  },
+  "depth": 13
+ },
+ {
+  "tag": "i",
+  "text": "keyboard_arrow_down",
+  "box": {
+   "x": 998,
+   "y": 334,
+   "w": 42,
+   "h": 53
+  },
+  "style": {
+   "ff": "Material Icons",
+   "fs": "20px",
+   "fw": "400",
+   "lh": "20px",
+   "ls": "normal",
+   "color": "rgb(189, 189, 189)",
+   "pos": "absolute"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "お名前 (漢字)",
+  "box": {
+   "x": 400,
+   "y": 408,
+   "w": 90,
+   "h": 15
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "15px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "*",
+  "box": {
+   "x": 490,
+   "y": 407,
+   "w": 11,
+   "h": 17
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "13px",
+   "fw": "500",
+   "lh": "13px",
+   "ls": "0.65px",
+   "color": "rgb(242, 58, 60)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "input",
+  "box": {
+   "x": 400,
+   "y": 434,
+   "w": 640,
+   "h": 50
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(255, 255, 255)",
+   "br": "4px",
+   "pos": "relative",
+   "border": "1px solid rgb(238, 238, 238)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "会社名",
+  "box": {
+   "x": 400,
+   "y": 504,
+   "w": 45,
+   "h": 15
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "15px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "input",
+  "box": {
+   "x": 400,
+   "y": 530,
+   "w": 640,
+   "h": 50
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(255, 255, 255)",
+   "br": "4px",
+   "pos": "relative",
+   "border": "1px solid rgb(238, 238, 238)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "メールアドレス",
+  "box": {
+   "x": 400,
+   "y": 601,
+   "w": 105,
+   "h": 15
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "15px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "*",
+  "box": {
+   "x": 505,
+   "y": 600,
+   "w": 11,
+   "h": 17
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "13px",
+   "fw": "500",
+   "lh": "13px",
+   "ls": "0.65px",
+   "color": "rgb(242, 58, 60)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "input",
+  "box": {
+   "x": 400,
+   "y": 627,
+   "w": 640,
+   "h": 50
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(255, 255, 255)",
+   "br": "4px",
+   "pos": "relative",
+   "border": "1px solid rgb(238, 238, 238)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "メールアドレス (確認)",
+  "box": {
+   "x": 400,
+   "y": 698,
+   "w": 150,
+   "h": 15
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "15px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "*",
+  "box": {
+   "x": 550,
+   "y": 697,
+   "w": 11,
+   "h": 17
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "13px",
+   "fw": "500",
+   "lh": "13px",
+   "ls": "0.65px",
+   "color": "rgb(242, 58, 60)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "input",
+  "box": {
+   "x": 400,
+   "y": 724,
+   "w": 640,
+   "h": 50
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(255, 255, 255)",
+   "br": "4px",
+   "pos": "relative",
+   "border": "1px solid rgb(238, 238, 238)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "電話番号",
+  "box": {
+   "x": 400,
+   "y": 794,
+   "w": 60,
+   "h": 15
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "15px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "input",
+  "box": {
+   "x": 400,
+   "y": 820,
+   "w": 640,
+   "h": 50
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(255, 255, 255)",
+   "br": "4px",
+   "pos": "relative",
+   "border": "1px solid rgb(238, 238, 238)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "お問い合わせ内容",
+  "box": {
+   "x": 400,
+   "y": 891,
+   "w": 120,
+   "h": 15
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "15px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "*",
+  "box": {
+   "x": 520,
+   "y": 890,
+   "w": 11,
+   "h": 17
+  },
+  "style": {
+   "ff": "Kosugi Maru",
+   "fs": "13px",
+   "fw": "500",
+   "lh": "13px",
+   "ls": "0.65px",
+   "color": "rgb(242, 58, 60)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "textarea",
+  "box": {
+   "x": 400,
+   "y": 917,
+   "w": 640,
+   "h": 160
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(255, 255, 255)",
+   "br": "4px",
+   "pos": "relative",
+   "border": "1px solid rgb(238, 238, 238)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "input",
+  "box": {
+   "x": 400,
+   "y": 1101,
+   "w": 13,
+   "h": 13
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "13.3333px",
+   "fw": "400",
+   "lh": "13.3333px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "プライバシーポリシー",
+  "href": "/privacy_policy",
+  "target": "_blank",
+  "box": {
+   "x": 423,
+   "y": 1097,
+   "w": 150,
+   "h": 21
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "span",
+  "text": "に同意する",
+  "box": {
+   "x": 573,
+   "y": 1097,
+   "w": 75,
+   "h": 21
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "button",
+  "box": {
+   "x": 637,
+   "y": 1158,
+   "w": 166,
+   "h": 48
+  },
+  "style": {
+   "ff": "Lato",
+   "fs": "15px",
+   "fw": "400",
+   "lh": "21px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(244, 167, 185)",
+   "br": "32px",
+   "pos": "relative",
+   "border": "1px solid rgb(244, 167, 185)"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "p",
+  "text": "送信",
+  "box": {
+   "x": 703,
+   "y": 1168,
+   "w": 35,
+   "h": 29
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "28.8px",
+   "ls": "1.28px",
+   "color": "rgb(255, 255, 255)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "a",
+  "href": "/contact#top",
+  "box": {
+   "x": 1380,
+   "y": 840,
+   "w": 60,
+   "h": 60
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "bgc": "rgb(244, 167, 185)",
+   "br": "4px 0px 0px",
+   "pos": "relative"
+  },
+  "depth": 8
+ },
+ {
+  "tag": "p",
+  "text": "Follow us",
+  "box": {
+   "x": 160,
+   "y": 1399,
+   "w": 67,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "a",
+  "href": "https://www.instagram.com/kasumin.jasmine/",
+  "target": "_blank",
+  "box": {
+   "x": 259,
+   "y": 1402,
+   "w": 18,
+   "h": 20
+  },
+  "style": {
+   "ff": "Font Awesome 6 Brands",
+   "fs": "20px",
+   "fw": "400",
+   "lh": "20px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "活動紹介",
+  "href": "/#business",
+  "box": {
+   "x": 160,
+   "y": 1489,
+   "w": 56,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "会社情報",
+  "href": "/company",
+  "box": {
+   "x": 248,
+   "y": 1489,
+   "w": 56,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "ニュース",
+  "href": "/news",
+  "box": {
+   "x": 336,
+   "y": 1489,
+   "w": 55,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "イベント運営",
+  "href": "/event",
+  "box": {
+   "x": 423,
+   "y": 1489,
+   "w": 84,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "KASUMINブログ",
+  "href": "https://note.com/kasumin977",
+  "target": "_blank",
+  "box": {
+   "x": 539,
+   "y": 1489,
+   "w": 110,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "text": "お問い合わせ",
+  "href": "/contact",
+  "box": {
+   "x": 682,
+   "y": 1489,
+   "w": 84,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "a",
+  "href": "/",
+  "box": {
+   "x": 160,
+   "y": 1579,
+   "w": 200,
+   "h": 54
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 11
+ },
+ {
+  "tag": "img",
+  "src": "https://storage.googleapis.com/studio-design-asset-files/projects/bXqzew1ZOD/s-971x263_v-fs_webp_1aaf178d-68f2-4b33-a119-3048e6028a78_small.webp",
+  "box": {
+   "x": 160,
+   "y": 1579,
+   "w": 200,
+   "h": 54
+  },
+  "style": {
+   "ff": "sans-serif",
+   "fs": "16px",
+   "fw": "400",
+   "lh": "16px",
+   "ls": "normal",
+   "color": "rgb(51, 51, 51)",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "a",
+  "text": "プライバシーポリシー",
+  "href": "/privacy_policy",
+  "target": "_blank",
+  "box": {
+   "x": 392,
+   "y": 1593,
+   "w": 140,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "a",
+  "text": "サイトポリシー",
+  "href": "/site_policy",
+  "target": "_blank",
+  "box": {
+   "x": 564,
+   "y": 1593,
+   "w": 98,
+   "h": 25
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "25.2px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 12
+ },
+ {
+  "tag": "p",
+  "text": "Copyright © 2025 KASUMIN, Inc. All rights reserved.",
+  "box": {
+   "x": 916,
+   "y": 1599,
+   "w": 364,
+   "h": 14
+  },
+  "style": {
+   "ff": "Montserrat",
+   "fs": "14px",
+   "fw": "400",
+   "lh": "14px",
+   "ls": "normal",
+   "color": "rgb(244, 167, 185)",
+   "ta": "center",
+   "pos": "relative"
+  },
+  "depth": 10
+ },
+ {
+  "tag": "style",
+  "hidden": true,
+  "text": ":root {--s-color-dc80cf2d: #ffffffff;--s-color-f0967a6f: #f9"
+ },
+ {
+  "tag": "script",
+  "hidden": true,
+  "text": "window.__NUXT__={};window.__NUXT__.config={public:{apiBaseUr"
+ },
+ {
+  "tag": "script",
+  "hidden": true,
+  "text": "[[\"ShallowReactive\",1],{\"data\":2,\"state\":5,\"once\":7,\"_errors"
+ }
+]
