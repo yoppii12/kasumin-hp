@@ -827,10 +827,11 @@ button {
   line-height: 1.6;
 }
 
+/* 記事本文の中見出し: ピンクの左帯（laplust-hpの帯見出しをKASUMINカラーで再現） */
 .rich-text h3 {
   margin: 40px 0 16px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+  padding: 2px 0 2px 16px;
+  border-left: 8px solid var(--color-accent);
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.02em;
