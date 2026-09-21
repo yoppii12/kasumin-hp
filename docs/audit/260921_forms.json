@@ -1,0 +1,74 @@
+{
+  "/contact": [
+    {
+      "action": null,
+      "method": null,
+      "fields": [
+        {
+          "tag": "select",
+          "type": null,
+          "name": "お問い合わせ種別",
+          "placeholder": null,
+          "required": true,
+          "options": [
+            "選択してください",
+            "サービスに関するお問合せ",
+            "パートナーシップ・共同研究に関するお問合せ",
+            "採用に関するお問合せ",
+            "取材・講演に関するお問合せ",
+            "その他のお問合せ"
+          ]
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "お名前",
+          "placeholder": "お名前を入力してください",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "会社名",
+          "placeholder": "会社名を入力してください",
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "email",
+          "name": "メールアドレス",
+          "placeholder": "mail@example.com",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "email",
+          "name": "メールアドレス（確認）",
+          "placeholder": "mail@example.com",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "tel",
+          "name": "電話番号",
+          "placeholder": "09012345678",
+          "required": false
+        },
+        {
+          "tag": "textarea",
+          "type": null,
+          "name": "お問い合わせ内容",
+          "placeholder": "お問い合わせ内容を入力してください",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "プライバシーポリシー",
+          "placeholder": null,
+          "required": true
+        }
+      ]
+    }
+  ]
+}
