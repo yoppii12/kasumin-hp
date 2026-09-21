@@ -1,0 +1,58 @@
+# Looker Studio ダッシュボード＋週次レポート通知 構築手順（KASUMIN版）
+
+laplust-hp `docs/260904_LookerStudio構築手順.md` を雛形に作成。
+KASUMINでは「①Looker Studioダッシュボード（見に行く用）」に加えて、
+「②GASによる週次レポートメール（届く用）」を導入する。
+
+- 対象GA4プロパティ: **KASUMIN HP**（測定ID `G-4BYV0QM1WB`・y.harasaki@laplust.com 管理）
+- 計測開始: 2026-09-21（GTM `GTM-KKJ2KRB3` 経由）。データが溜まるまで数日はグラフがほぼ空になる
+
+## ① Looker Studio ダッシュボード（手動・約15分）
+
+1. [lookerstudio.google.com](https://lookerstudio.google.com) に y.harasaki@laplust.com でログイン
+2. 「作成」→「レポート」→ コネクタ「**Google アナリティクス**」→ プロパティ「KASUMIN HP」を追加
+3. レポート名を「KASUMIN HP ダッシュボード」に変更
+4. 配置するグラフ（laplust版と同一。詳細な設定値は laplust-hp の手順書を参照）:
+   - スコアカード×4（アクティブユーザー / 新規ユーザー / 表示回数 / 平均エンゲージメント時間。比較期間「前の期間」）
+   - 時系列グラフ（日付×アクティブユーザー数）
+   - 表: ページ別ランキング（pagePath × アクティブユーザー・表示回数。降順）
+   - 円グラフ: デバイスカテゴリ / 表: 参照元・メディア
+   - 期間コントロール（既定「過去28日間」）
+5. 2ページ目（任意）: データ追加 →「Google スプレッドシート」→「HP問い合わせ」→
+   タブ「お問い合わせ」→ 時系列グラフ（受信日時×Record Count）で問い合わせ件数の推移
+   ※シートのオーナーは h.kasumi@kasumin.biz のため、y.harasaki が閲覧できるよう共有されていること
+6. 共有: 「リンクを知っている全員が閲覧できる」にして、URLをNotion
+   「🔧 サイト管理情報」に記載（GitHubには載せない）
+
+## ② 週次レポートメール（GAS・約10分）
+
+毎週月曜8時台に、直近7日の「サマリー（前週比）・ページ別上位10・流入元上位5」を
+メールで自動送信する。スクリプトは `scripts/gas/weekly-report.gs`。
+
+### 導入手順（y.harasaki@laplust.com で実施 — GA4の権限があるアカウント）
+
+1. [script.google.com](https://script.google.com) →「新しいプロジェクト」
+   （フォーム受信GASとは別プロジェクト。実行アカウントも異なるので注意）
+2. プロジェクト名を「KASUMIN HP 週次レポート」等に変更
+3. `コード.gs` に `scripts/gas/weekly-report.gs` の内容を貼り付け
+4. **PROPERTY_ID を設定**: GA4（analytics.google.com）→ 管理 → プロパティ設定 →
+   右上の「プロパティID」（数字のみ）をコピーして貼る
+5. 左メニュー「**サービス +**」→「**Google Analytics Data API**」を追加（識別子 AnalyticsData のまま）
+6. 関数 `testWeeklyReport` を選んで「実行」→ 初回は承認 → NOTIFY_EMAIL（info@laplust.com）に
+   レポートメールが届けばOK（計測開始直後は数字がほぼ0でも正常）
+7. 関数 `setupWeeklyTrigger` を選んで「実行」→ 毎週月曜8時台のトリガーが登録される
+8. （任意）①のダッシュボードURLができたら `DASHBOARD_URL` に貼って保存
+
+### 運用
+
+- 通知先の変更・追加は `NOTIFY_EMAIL`（カンマ区切り）。お客様（info@kasumin.biz）を
+  加える場合は文面がそのまま届く点に留意
+- 週次メールの数字に変化点があれば、メールをClaude Codeに共有 → 分析・改善案 → 実装、の
+  改善サイクルを回す（laplust運用と同じ）
+- フォーム送信をCVとして追う場合: GA4管理画面で `form_submit` をキーイベントに指定し、
+  ダッシュボード/レポートに指標として追加する
+
+## 補足
+
+- Looker StudioのURL・PROPERTY_IDなどの実値はNotion「🔧 サイト管理情報」で管理し、
+  GitHubには記載しない（プレイブック運用ルール）
