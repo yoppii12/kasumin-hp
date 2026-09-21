@@ -43,6 +43,10 @@ export default function SiteFooter() {
             ),
           )}
         </nav>
+        {/* 特定募集情報等提供事業者の届出表示（職業安定法対応・Issue #1） */}
+        <p className="site-footer__notice">
+          合同会社KASUMINは、特定募集情報等提供事業者として厚生労働大臣に届出をしています（届出受理番号 51-募-001733）。
+        </p>
         <div className="site-footer__bottom">
           <Link href="/" className="site-footer__logo" aria-label="KASUMIN" />
           {/* 現行版準拠: ポリシー2リンクは新しいタブで開く */}

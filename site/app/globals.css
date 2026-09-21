@@ -368,6 +368,14 @@ button {
   color: var(--color-accent);
 }
 
+.site-footer__notice {
+  padding-top: 20px;
+  font-family: var(--font-en);
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--color-accent);
+}
+
 .site-footer__bottom {
   display: flex;
   align-items: center;
