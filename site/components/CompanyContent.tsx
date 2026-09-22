@@ -155,7 +155,7 @@ export default function CompanyContent() {
               </div>
               <div className={styles.overviewRow}>
                 <dt>本社所在地</dt>
-                <dd>〒850-0054 長崎県長崎市上町4-37</dd>
+                <dd>〒850-0042 長崎県長崎市御船蔵町16-43</dd>
               </div>
               <div className={styles.overviewRow}>
                 <dt>事業内容</dt>
