@@ -1,0 +1,92 @@
+/* 配色は KASUMIN のブランドガイドに従う（document-hub-kasumin master/ブランドガイド.md）
+   白 #FFFFFF 70%／グレー #F9F9F9・#333333・#666666・#AAAAAA 27%／桜ピンク #F4A7B9 3%以内
+   ピンクはボタン・見出しライン・アイコンだけに使い、文字色には使わない */
+:root {
+  --c-base: #ffffff;
+  --c-bg: #f9f9f9;
+  --c-text: #333333;
+  --c-sub: #666666;
+  --c-line: #aaaaaa;
+  --c-accent: #f4a7b9;
+  --font-ja: var(--font-kosugi), 'Kosugi Maru', var(--font-noto), sans-serif;
+  --font-body: var(--font-noto), 'Noto Sans JP', sans-serif;
+  --container: 760px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--c-base); color: var(--c-text); font-family: var(--font-body); font-size: 16px; line-height: 1.9; }
+a { color: inherit; }
+img { max-width: 100%; height: auto; }
+ul { list-style: none; }
+.container { max-width: var(--container); margin: 0 auto; padding: 0 16px; }
+.section { padding-top: 40px; padding-bottom: 40px; }
+
+/* ヘッダー・フッター */
+.header { border-bottom: 1px solid #eeeeee; background: var(--c-base); }
+.header__inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px; padding: 14px 16px; max-width: 1080px; }
+.header__logo { text-decoration: none; display: flex; align-items: baseline; gap: 8px; }
+.header__name { font-family: var(--font-ja); font-size: 20px; }
+.header__by { font-size: 12px; color: var(--c-sub); }
+.header__nav { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; }
+.header__nav a { text-decoration: none; color: var(--c-sub); }
+.footer { background: var(--c-bg); color: var(--c-sub); font-size: 13px; padding: 32px 0; margin-top: 48px; }
+.footer__name { font-family: var(--font-ja); color: var(--c-text); font-size: 16px; margin-bottom: 12px; }
+.footer__links { display: flex; flex-wrap: wrap; gap: 4px 20px; margin-bottom: 16px; }
+.footer__note, .footer__copy { font-size: 12px; margin-top: 8px; }
+
+/* 見出し・一覧 */
+.hero { background: var(--c-bg); padding: 48px 0; }
+.hero__title { font-family: var(--font-ja); font-weight: 400; font-size: 30px; }
+.hero__tagline { color: var(--c-sub); margin-top: 8px; }
+.page-title, .article__title { font-family: var(--font-ja); font-weight: 400; font-size: 26px; line-height: 1.5; margin: 8px 0 16px; }
+.page-lead { color: var(--c-sub); margin-bottom: 24px; }
+.section__title { font-family: var(--font-ja); font-weight: 400; font-size: 20px; padding-left: 12px; border-left: 4px solid var(--c-accent); margin-bottom: 16px; }
+.cards { display: grid; gap: 12px; }
+.card a { display: block; padding: 16px; border: 1px solid #eeeeee; border-radius: 8px; text-decoration: none; }
+.card a:hover { background: var(--c-bg); }
+.card__pillar { display: block; font-size: 12px; color: var(--c-sub); }
+.card__title { display: block; font-weight: 700; line-height: 1.6; margin: 4px 0; }
+.card__date { display: block; font-size: 12px; color: var(--c-line); }
+.pillars { display: grid; gap: 12px; }
+.pillars a { display: block; padding: 16px; background: var(--c-bg); border-radius: 8px; text-decoration: none; }
+.pillars__name { display: block; font-weight: 700; }
+.pillars__desc { display: block; font-size: 14px; color: var(--c-sub); }
+.more { margin-top: 16px; text-align: right; font-size: 14px; }
+.empty { color: var(--c-sub); }
+.breadcrumb ol { display: flex; flex-wrap: wrap; gap: 4px; font-size: 12px; color: var(--c-sub); list-style: none; }
+.breadcrumb li + li::before { content: '›'; margin-right: 4px; }
+
+/* 記事 */
+.draft-badge { display: inline-block; font-size: 12px; background: var(--c-text); color: var(--c-base); padding: 2px 8px; border-radius: 4px; }
+.byline { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; color: var(--c-sub); margin-bottom: 24px; }
+.summary { background: var(--c-bg); border-radius: 8px; padding: 16px 20px; margin-bottom: 32px; }
+.summary__title { font-weight: 700; margin-bottom: 4px; }
+.summary li { list-style: disc; margin-left: 20px; }
+.article__body h2 { font-family: var(--font-ja); font-weight: 400; font-size: 21px; line-height: 1.5; background: var(--c-bg); padding: 10px 14px; margin: 40px 0 16px; }
+.article__body h3 { font-size: 18px; margin: 28px 0 12px; padding-bottom: 4px; border-bottom: 1px solid #eeeeee; }
+.article__body p { margin-bottom: 16px; }
+.article__body ul, .article__body ol { margin: 0 0 16px 24px; }
+.article__body ul li { list-style: disc; }
+.article__body ol li { list-style: decimal; }
+.article__body a { text-decoration: underline; }
+.table-wrap, .article__body table { overflow-x: auto; }
+.article__body table { display: block; border-collapse: collapse; margin-bottom: 16px; font-size: 14px; }
+.article__body th, .article__body td { border: 1px solid #dddddd; padding: 8px 10px; vertical-align: top; text-align: left; }
+.article__body thead th { background: var(--c-text); color: var(--c-base); }
+.article__body tbody th { background: var(--c-bg); white-space: nowrap; }
+.faq, .sources { margin-top: 40px; }
+.faq h2, .sources h2 { font-family: var(--font-ja); font-weight: 400; font-size: 20px; margin-bottom: 12px; }
+.faq__item { padding: 12px 0; border-bottom: 1px solid #eeeeee; }
+.faq dt { font-weight: 700; }
+.faq dd { color: var(--c-text); }
+.sources li { list-style: disc; margin-left: 20px; font-size: 14px; }
+.author-box { margin-top: 32px; padding: 16px 20px; border: 1px solid #eeeeee; border-radius: 8px; font-size: 14px; }
+.author-box__label { font-size: 12px; color: var(--c-sub); }
+.author-box__name { font-weight: 700; display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; }
+.author-box__name span { font-weight: 400; font-size: 12px; color: var(--c-sub); }
+
+/* LINE の CTA（ピンクはボタンの面だけ。面積3%以内） */
+.line-cta { margin: 40px 0; padding: 24px 20px; background: var(--c-bg); border-radius: 8px; text-align: center; }
+.line-cta__lead { font-size: 15px; margin-bottom: 16px; text-align: left; }
+.line-cta__button { display: inline-block; background: var(--c-accent); color: var(--c-text); font-weight: 700; text-decoration: none; padding: 12px 28px; border-radius: 999px; }
+.line-cta__button:hover { opacity: 0.85; }

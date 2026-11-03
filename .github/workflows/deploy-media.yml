@@ -1,0 +1,51 @@
+# オウンドメディア（media.kasumin.biz）を main への push で自動ビルドし、さくらVPSへ同期する
+# HP（deploy.yml）と同じ Secrets（VPS_HOST / VPS_USER / VPS_SSH_KEY）を使う
+# 初回の前に VPS 側の準備が必要: docs/261103_オウンドメディア設計案.md「9. 公開までの作業」
+name: Deploy media to Sakura VPS
+
+on:
+  push:
+    branches: [main]
+    paths: ['media/**', '.github/workflows/deploy-media.yml']
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-media
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: media/package-lock.json
+
+      - name: Check & Build
+        working-directory: media
+        run: |
+          npm ci
+          npm run check
+          npm run build
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H "${{ secrets.VPS_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Sync to VPS
+        run: |
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/deploy_key" \
+            media/out/ "${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/media/"
+
+      - name: Verify
+        run: |
+          ssh -i ~/.ssh/deploy_key "${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}" \
+            "test -f /var/www/media/index.html && echo 'deploy OK'"

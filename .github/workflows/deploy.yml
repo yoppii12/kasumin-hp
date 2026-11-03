@@ -9,6 +9,8 @@ name: Deploy to Sakura VPS
 on:
   push:
     branches: [main, claude/kasumin-hp-migration-phase1-97pogm]
+    # media/（オウンドメディア）だけの変更では HP を再デプロイしない
+    paths-ignore: ['media/**', '.github/workflows/deploy-media.yml', '.github/workflows/media-check.yml']
   workflow_dispatch:
 
 concurrency:

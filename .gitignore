@@ -2,3 +2,5 @@ node_modules/
 site/out/
 site/.next/
 .DS_Store
+media/out/
+media/.next/
