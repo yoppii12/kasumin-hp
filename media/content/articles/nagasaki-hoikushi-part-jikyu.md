@@ -21,6 +21,8 @@ faq:
 sources:
   - title: "「長崎県最低賃金」を「時間額1,087円」に引上げ（長崎労働局 報道発表 2026年9月29日）"
     url: "https://jsite.mhlw.go.jp/nagasaki-roudoukyoku/content/contents/press-26092902.pdf"
+image: "/images/articles/nagasaki-hoikushi-part-jikyu.jpg"
+notionUrl: "https://app.notion.com/p/40dc08e5f34c8127b06cda83705d8b70"
 draft: true
 noindex: false
 ---

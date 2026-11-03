@@ -38,7 +38,8 @@ const slugs = new Map();
 const files = fs.existsSync(DIR) ? fs.readdirSync(DIR).filter((f) => f.endsWith('.md') && !f.startsWith('_')) : [];
 
 for (const f of files) {
-  const { data, content } = matter(fs.readFileSync(path.join(DIR, f), 'utf-8'));
+  const raw = fs.readFileSync(path.join(DIR, f), 'utf-8');
+  const { data, content } = matter(raw);
   const err = (m) => { errors++; console.log(`ERROR ${f}: ${m}`); };
   const warn = (m) => { warns++; console.log(`WARN  ${f}: ${m}`); };
   const reviewBy = toDate(data.reviewBy);
@@ -61,9 +62,14 @@ for (const f of files) {
     if (!Array.isArray(data.sources) || !data.sources.length) err('公開する記事は sources（出典）が1件以上必要');
     if (!Array.isArray(data.summary) || !data.summary.length) warn('summary（要点）がない');
     if (reviewBy && reviewBy < today) warn(`次回点検日 ${reviewBy} を過ぎている`);
+    if (!data.image) warn('image（アイキャッチ）がない（OGP は既定の画像になる）');
+    if (!data.notionUrl) warn('notionUrl（Notion の記事管理ページ）がない');
   }
 
   const text = [data.title, data.description, ...(data.summary ?? []), ...(data.faq ?? []).flatMap((x) => [x.q, x.a]), content].join('\n');
+  // 確認が終わっていない記事は公開できない（Notion の記事管理で「確認済み」にしてから draft: false にする）
+  if (!data.draft && /【要確認】/.test(raw)) err('【要確認】が残っている。担当者の確認が終わるまで draft: true のままにする');
+
   for (const n of NG) if (n.re.test(text)) err(`禁止語 ${n.re} — ${n.why}`);
   for (const w of WARN) if (w.re.test(text)) warn(`注意語 ${w.re} — ${w.why}`);
 }

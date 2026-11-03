@@ -31,6 +31,8 @@ sources:
     url: "https://www.nagasaki-shiencenter.jp/info.shtml?id=26jnoeM"
   - title: "令和8年度 保育施設見学及び職場体験会 体験者募集について（保いっぷ）"
     url: "https://www.nagasaki-shiencenter.jp/ntmp/1782451214.pdf"
+image: "/images/articles/nagasaki-hoikushi-event-calendar.jpg"
+notionUrl: "https://app.notion.com/p/40dc08e5f34c81fd8019ecb1ec66bdf4"
 draft: true
 noindex: false
 ---

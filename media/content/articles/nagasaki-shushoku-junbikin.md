@@ -31,6 +31,8 @@ sources:
     url: "https://nagasaki-pref-shakyo.jp/work/step-up-loan/nursery-teacher-employment-reserve-fund/"
   - title: "保育士になりたい方、保育士への支援（長崎県）"
     url: "https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/kekkon-nishin-shusan-kosodate/kosodateshien/zinzaikakuho/hoikushi-sien/body.html"
+image: "/images/articles/nagasaki-shushoku-junbikin.jpg"
+notionUrl: "https://app.notion.com/p/40dc08e5f34c81658de6eb4e6d484d51"
 draft: true
 noindex: false
 ---

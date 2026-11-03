@@ -31,6 +31,8 @@ sources:
     url: "https://nagasaki-pref-shakyo.jp/wp-content/uploads/b53398e7a45e7195d6b6874ac937d947-3.pdf"
   - title: "令和8年度 保育施設見学及び職場体験会 体験者募集について（保いっぷ）"
     url: "https://www.nagasaki-shiencenter.jp/ntmp/1782451214.pdf"
+image: "/images/articles/nagasaki-hoikushi-fukushoku-shien.jpg"
+notionUrl: "https://app.notion.com/p/40dc08e5f34c81dc9c8cccce266a858c"
 draft: true
 noindex: false
 ---

@@ -33,6 +33,8 @@ sources:
     url: "https://www.nagasaki-shiencenter.jp/info.shtml?id=26haloQ"
   - title: "令和8年度 保育施設見学及び職場体験会 体験者募集について（保いっぷ）"
     url: "https://www.nagasaki-shiencenter.jp/ntmp/1782451214.pdf"
+image: "/images/articles/hoippu-guide.jpg"
+notionUrl: "https://app.notion.com/p/40dc08e5f34c81f783d3f7b96267695c"
 draft: true
 noindex: false
 ---

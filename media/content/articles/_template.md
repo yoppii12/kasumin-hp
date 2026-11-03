@@ -22,7 +22,9 @@ faq:
 sources:
   - title: "出典のページ名（発行元）"
     url: "https://example.com/"
-draft: true                       # 公開するときに false
+image: "/images/articles/example-slug.jpg"  # アイキャッチ（Canva で 1200×630 を作り public/images/articles/ に置く）
+notionUrl: ""                     # Notion「記事管理」のページ URL（確認の記録）
+draft: true                       # Notion で「確認済み」になり、【要確認】が本文から消えたら false
 noindex: false
 ---
 
