@@ -45,6 +45,19 @@ function toDate(v: unknown): string {
   return v ? String(v) : '';
 }
 
+// 本文の図（/images/diagrams/*.svg）はファイルの中身をそのまま埋め込む。
+// <img> で読み込むとサイトのフォントが使われないため（文字の見た目をそろえる）
+const DIAGRAM_DIR = path.join(process.cwd(), 'public', 'images', 'diagrams');
+function inlineDiagrams(html: string): string {
+  return html.replace(
+    /<p>\s*<img src="\/images\/diagrams\/([a-z0-9-]+\.svg)" alt="([^"]*)"[^>]*>\s*<\/p>/g,
+    (_m, file: string, alt: string) => {
+      const svg = fs.readFileSync(path.join(DIAGRAM_DIR, file), 'utf-8');
+      return `<figure class="diagram">${svg}<figcaption>${alt}</figcaption></figure>`;
+    },
+  );
+}
+
 export function parseArticle(file: string): Article {
   const raw = fs.readFileSync(path.join(DIR, file), 'utf-8');
   const { data, content } = matter(raw);
@@ -70,7 +83,7 @@ export function parseArticle(file: string): Article {
     authorLabel: data.authorLabel === '監修' ? '監修' : '執筆',
     draft: Boolean(data.draft),
     noindex: Boolean(data.noindex),
-    html: marked.parse(content) as string,
+    html: inlineDiagrams(marked.parse(content) as string),
   };
 }
 

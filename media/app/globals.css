@@ -99,3 +99,8 @@ ul { list-style: none; }
 .author-lead__name span { font-weight: 400; font-size: 12px; color: var(--c-sub); }
 .author-lead__text { margin-top: 4px; line-height: 1.8; }
 .author-box__inner { display: flex; gap: 16px; align-items: flex-start; margin-top: 8px; }
+
+/* 本文の図（SVG を埋め込み） */
+.diagram { margin: 8px 0 24px; }
+.diagram svg { width: 100%; height: auto; display: block; }
+.diagram figcaption { font-size: 12px; color: var(--c-sub); text-align: center; margin-top: 6px; }
