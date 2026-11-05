@@ -3,7 +3,7 @@ slug: "hirata-kasumi"
 name: "平田 香澄"
 role: "合同会社KASUMIN 代表社員／えんまーる 運営"
 shortBio: "東京都世田谷区の保育園に10年以上勤務し、保育園長として園運営に従事。2024年に保育アドバイザーとして独立し、合同会社KASUMINで保育士の復職支援「えんまーる」を運営。"
-# image: "/images/authors/hirata-kasumi.jpg"   # 顔写真【要確認】
+image: "/images/authors/hirata-kasumi.jpg"   # HP のメンバー紹介と同じ写真（site/public/assets/design/... を正方形に切り抜き）
 sameAs: []
 ---
 
