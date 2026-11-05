@@ -3,6 +3,8 @@ import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
 import { getPillar, type PillarSlug } from './pillars';
+import { replaceSlides } from './slide.js';
+import { SITE } from './site';
 
 const DIR = path.join(process.cwd(), 'content', 'articles');
 
@@ -83,7 +85,7 @@ export function parseArticle(file: string): Article {
     authorLabel: data.authorLabel === '監修' ? '監修' : '執筆',
     draft: Boolean(data.draft),
     noindex: Boolean(data.noindex),
-    html: inlineDiagrams(marked.parse(content) as string),
+    html: inlineDiagrams(marked.parse(replaceSlides(content, SITE.name)) as string),
   };
 }
 

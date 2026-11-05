@@ -4,3 +4,4 @@ site/.next/
 .DS_Store
 media/out/
 media/.next/
+media/out-slides/
