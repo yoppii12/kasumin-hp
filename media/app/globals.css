@@ -90,3 +90,12 @@ ul { list-style: none; }
 .line-cta__lead { font-size: 15px; margin-bottom: 16px; text-align: left; }
 .line-cta__button { display: inline-block; background: var(--c-accent); color: var(--c-text); font-weight: 700; text-decoration: none; padding: 12px 28px; border-radius: 999px; }
 .line-cta__button:hover { opacity: 0.85; }
+
+/* 監修者の紹介（冒頭）と顔写真 */
+.author-photo { border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+.author-photo--empty { display: inline-flex; align-items: center; justify-content: center; background: var(--c-bg); color: var(--c-sub); font-family: var(--font-ja); font-size: 22px; border: 1px solid #eeeeee; }
+.author-lead { display: flex; gap: 14px; align-items: flex-start; padding: 14px 16px; border: 1px solid #eeeeee; border-radius: 8px; margin-bottom: 24px; font-size: 14px; }
+.author-lead__name { font-weight: 700; display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; }
+.author-lead__name span { font-weight: 400; font-size: 12px; color: var(--c-sub); }
+.author-lead__text { margin-top: 4px; line-height: 1.8; }
+.author-box__inner { display: flex; gap: 16px; align-items: flex-start; margin-top: 8px; }

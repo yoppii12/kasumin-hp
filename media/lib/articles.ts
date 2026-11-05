@@ -30,6 +30,9 @@ export type ArticleMeta = {
   faq: Faq[];
   sources: Source[];
   image?: string;
+  // 冒頭の監修者紹介文（ある記事だけ冒頭に表示）と、著者欄の肩書き（執筆／監修）
+  lead?: string;
+  authorLabel: '執筆' | '監修';
   draft: boolean;
   noindex: boolean;
 };
@@ -63,6 +66,8 @@ export function parseArticle(file: string): Article {
     faq: data.faq ?? [],
     sources: data.sources ?? [],
     image: data.image,
+    lead: data.lead || undefined,
+    authorLabel: data.authorLabel === '監修' ? '監修' : '執筆',
     draft: Boolean(data.draft),
     noindex: Boolean(data.noindex),
     html: marked.parse(content) as string,

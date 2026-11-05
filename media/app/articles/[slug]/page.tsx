@@ -9,7 +9,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import JsonLd from '@/components/JsonLd';
 import LineCta from '@/components/LineCta';
 import { ArticleList } from '@/components/ArticleCard';
-import { ArticleByline, AuthorBox, FaqSection, Sources, Summary } from '@/components/ArticleParts';
+import { ArticleByline, AuthorBox, AuthorLead, FaqSection, Sources, Summary } from '@/components/ArticleParts';
 
 export const dynamicParams = false;
 
@@ -67,12 +67,13 @@ export default async function ArticlePage({ params }: Props) {
         {a.draft && <p className="draft-badge">下書き（本番には出ません）</p>}
         <h1 className="article__title">{a.title}</h1>
         <ArticleByline a={a} author={author} reviewer={reviewer} />
+        <AuthorLead a={a} author={author} />
         <Summary items={a.summary} />
         <div className="article__body" dangerouslySetInnerHTML={{ __html: a.html }} />
         <FaqSection faq={a.faq} />
         <Sources sources={a.sources} />
         <LineCta type={a.cta} position="bottom" articleSlug={a.slug} pillar={a.pillar} />
-        <AuthorBox author={author} />
+        <AuthorBox author={author} label={a.lead ? a.authorLabel : '執筆'} />
       </article>
       {related.length > 0 && (
         <section className="section">

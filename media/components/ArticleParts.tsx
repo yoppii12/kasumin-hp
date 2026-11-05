@@ -10,7 +10,7 @@ export function ArticleByline({ a, author, reviewer }: { a: Article; author?: Au
     <div className="byline">
       {author && (
         <span>
-          執筆 <Link href={`/authors/${author.slug}`}>{author.name}</Link>
+          {a.authorLabel} <Link href={`/authors/${author.slug}`}>{author.name}</Link>
         </span>
       )}
       {reviewer && (
@@ -73,16 +73,51 @@ export function Sources({ sources }: { sources: Article['sources'] }) {
   );
 }
 
-export function AuthorBox({ author }: { author?: Author }) {
-  if (!author) return null;
+// 顔写真（未登録のときは名前の頭文字の丸）
+function AuthorPhoto({ author, size }: { author: Author; size: number }) {
+  if (author.image) {
+    return <img src={author.image} alt={author.name} width={size} height={size} className="author-photo" />;
+  }
   return (
-    <section className="author-box" aria-label="この記事を書いた人">
-      <p className="author-box__label">この記事を書いた人</p>
-      <p className="author-box__name">
-        <Link href={`/authors/${author.slug}`}>{author.name}</Link>
-        <span>{author.role}</span>
-      </p>
-      <p>{author.shortBio}</p>
+    <span className="author-photo author-photo--empty" style={{ width: size, height: size }} aria-hidden="true">
+      {author.name.slice(0, 1)}
+    </span>
+  );
+}
+
+// 記事冒頭の監修者紹介（frontmatter の lead がある記事だけ）
+export function AuthorLead({ a, author }: { a: Article; author?: Author }) {
+  if (!a.lead || !author) return null;
+  return (
+    <div className="author-lead">
+      <AuthorPhoto author={author} size={56} />
+      <div>
+        <p className="author-lead__name">
+          {a.authorLabel}：<Link href={`/authors/${author.slug}`}>{author.name}</Link>
+          <span>{author.role}</span>
+        </p>
+        <p className="author-lead__text">{a.lead}</p>
+      </div>
+    </div>
+  );
+}
+
+export function AuthorBox({ author, label = '執筆' }: { author?: Author; label?: '執筆' | '監修' }) {
+  if (!author) return null;
+  const heading = label === '監修' ? '監修者プロフィール' : 'この記事を書いた人';
+  return (
+    <section className="author-box" aria-label={heading}>
+      <p className="author-box__label">{heading}</p>
+      <div className="author-box__inner">
+        <AuthorPhoto author={author} size={72} />
+        <div>
+          <p className="author-box__name">
+            <Link href={`/authors/${author.slug}`}>{author.name}</Link>
+            <span>{author.role}</span>
+          </p>
+          <p>{author.shortBio}</p>
+        </div>
+      </div>
     </section>
   );
 }
