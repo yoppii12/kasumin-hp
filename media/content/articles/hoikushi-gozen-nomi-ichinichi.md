@@ -8,7 +8,7 @@ targetKeyword: "保育士 午前のみ パート"
 author: "hirata-kasumi"
 reviewer: ""
 publishedAt: 2026-11-03
-updatedAt: 2026-11-03
+updatedAt: 2026-11-06
 reviewBy: 2027-04-01
 cta: "line"
 summary:
@@ -23,6 +23,9 @@ draft: true
 noindex: false
 image: "/images/articles/hoikushi-gozen-nomi-ichinichi.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c81a99a06dd5f7048b106"
+authorLabel: "執筆"
+lead: "この記事は、東京都世田谷区の保育園に10年以上勤務し、保育園長として園運営に携わってきた平田香澄が、自身の経験をもとに書いています。午前だけのパートで働く保育士さんが、朝の受け入れから給食の前までにどんな流れで過ごすことが多いかをまとめました。"
+lengthExempt: true
 ---
 
 <!--
@@ -60,3 +63,12 @@ notionUrl: "https://app.notion.com/p/40dc08e5f34c81a99a06dd5f7048b106"
 ## 午前だけの働き方が向いている人
 
 <!-- 【要確認】 -->
+
+## 午前だけの働き方を考えるときに、あわせて読みたい記事
+
+午前だけで働くときは、一日の流れのほかに、扶養の範囲や子どもの預け先もあわせて考えておくと安心です。
+
+- 短い時間で戻るときの全体の流れ：「[午前だけ・週2・扶養内で保育士に戻る方法](/articles/hoikushi-tanjikan-modoru)」
+- 扶養の範囲で働きたい方：「[保育士が扶養内で働くときの最新の計算](/articles/hoikushi-fuyounai-2026)」
+- まずは補助から始めたい方：「[資格はあるけれど保育補助で戻りたい](/articles/hoikushi-hoikuhojo-shikakuari)」
+- 子どもを預けながら働きたい方：「[子育て中に保育士に戻るとき](/articles/hoikushi-kosodate-fukki)」
