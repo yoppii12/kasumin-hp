@@ -8,7 +8,8 @@
     "check": "node scripts/check-articles.mjs",
     "stale": "node scripts/check-articles.mjs --stale",
     "postbuild": "node -e \"require('fs').rmSync('out/articles/__no-article.html',{force:true});require('fs').rmSync('out/articles/__no-article.txt',{force:true})\"",
-    "slides": "node scripts/export-slides.mjs"
+    "slides": "node scripts/export-slides.mjs",
+    "preview": "node scripts/preview-shots.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
