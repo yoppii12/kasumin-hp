@@ -37,6 +37,19 @@ let warns = 0;
 const slugs = new Map();
 const files = fs.existsSync(DIR) ? fs.readdirSync(DIR).filter((f) => f.endsWith('.md') && !f.startsWith('_')) : [];
 
+// 全記事の slug・下書きかどうか・柱の記事（内部リンクの点検に使う）
+const index = new Map();
+for (const f of files) {
+  const { data } = matter(fs.readFileSync(path.join(DIR, f), 'utf-8'));
+  index.set(data.slug ?? f.replace(/\.md$/, ''), { draft: Boolean(data.draft), pillar: data.pillar, isPillar: Boolean(data.isPillar) });
+}
+const pillarArticle = new Map([...index].filter(([, v]) => v.isPillar).map(([k, v]) => [v.pillar, k]));
+
+// 本文の文字数（コメント・記号・表の罫線・リンクのURLを除く）
+const visible = (s) =>
+  s.replace(/<!--[\s\S]*?-->/g, '').replace(/```slide[\s\S]*?```/g, '').replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/[#|*`>\-:\s]/g, '');
+
 for (const f of files) {
   const raw = fs.readFileSync(path.join(DIR, f), 'utf-8');
   const { data, content } = matter(raw);
@@ -64,6 +77,30 @@ for (const f of files) {
     if (reviewBy && reviewBy < today) warn(`次回点検日 ${reviewBy} を過ぎている`);
     if (!data.image) warn('image（アイキャッチ）がない（OGP は既定の画像になる）');
     if (!data.notionUrl) warn('notionUrl（Notion の記事管理ページ）がない');
+  }
+
+  // 記事のルール（2026/11/06 決定。docs/261103_オウンドメディア設計案.md 13-4）
+  // 1) 内部リンク: リンク先が存在すること（エラー）、公開する記事から下書きへリンクしないこと（エラー）、
+  //    3本以上・柱の記事へ1本（注意）
+  const links = [...new Set([...content.matchAll(/\]\(\/articles\/([a-z0-9-]+)\)/g)].map((m) => m[1]))];
+  for (const l of links) {
+    if (!index.has(l)) err(`内部リンク先の記事がない: /articles/${l}`);
+    else if (!data.draft && index.get(l).draft) err(`下書きの記事へのリンクがある（公開すると404）: /articles/${l}`);
+  }
+  if (links.length < 3) warn(`内部リンクが ${links.length} 本（目安は3本以上）`);
+  const pa = pillarArticle.get(data.pillar);
+  if (!data.isPillar && pa && !links.includes(pa)) warn(`柱の記事（/articles/${pa}）へのリンクがない`);
+  // 2) 監修者の表示
+  if (!data.lead) warn('lead（冒頭の監修者紹介）がない');
+  if (!['監修', '執筆'].includes(data.authorLabel)) warn('authorLabel（監修／執筆）がない');
+  // 3) 文字数: 本文2,000字以上・各h2 200字以上を目安（lengthExempt: true の記事は除く）
+  if (!data.lengthExempt) {
+    const n = visible(content).length;
+    if (n < 2000) warn(`本文 ${n} 字（目安は2,000字以上）`);
+    for (const sec of content.split(/\n## /).slice(1)) {
+      const [title, ...rest] = sec.split('\n');
+      if (visible(rest.join('\n')).length < 200) warn(`h2「${title}」の本文が ${visible(rest.join('\n')).length} 字（目安は200字以上）`);
+    }
   }
 
   const text = [data.title, data.description, ...(data.summary ?? []), ...(data.faq ?? []).flatMap((x) => [x.q, x.a]), content].join('\n');
