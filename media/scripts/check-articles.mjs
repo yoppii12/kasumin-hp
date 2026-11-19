@@ -83,12 +83,12 @@ for (const f of files) {
   }
 
   // 記事のルール（2026/11/06 決定。docs/261103_オウンドメディア設計案.md 13-4）
-  // 1) 内部リンク: リンク先が存在すること（エラー）、公開する記事から下書きへリンクしないこと（エラー）、
+  // 1) 内部リンク: リンク先が存在すること（エラー）、公開する記事から下書きへのリンク（注意。サイトではリンク先が公開されるまで外す）、
   //    3本以上・柱の記事へ1本（注意）
   const links = [...new Set([...content.matchAll(/\]\(\/articles\/([a-z0-9-]+)\)/g)].map((m) => m[1]))];
   for (const l of links) {
     if (!index.has(l)) err(`内部リンク先の記事がない: /articles/${l}`);
-    else if (!data.draft && index.get(l).draft) err(`下書きの記事へのリンクがある（公開すると404）: /articles/${l}`);
+    else if (!data.draft && index.get(l).draft) warn(`下書きの記事へのリンク（公開されるまでサイトではリンクを外して表示）: /articles/${l}`);
   }
   if (links.length < 3) warn(`内部リンクが ${links.length} 本（目安は3本以上）`);
   const pa = pillarArticle.get(data.pillar);

@@ -69,6 +69,31 @@ function inlineDiagrams(html: string): string {
   );
 }
 
+// まだ公開していない（draft: true の）記事の slug。公開する記事からのリンクは、公開されるまで外す
+let draftSlugCache: Set<string> | undefined;
+function draftSlugs(): Set<string> {
+  if (!draftSlugCache) {
+    draftSlugCache = new Set(
+      articleFiles()
+        .map((f) => matter(fs.readFileSync(path.join(DIR, f), 'utf-8')).data)
+        .filter((d) => d.draft)
+        .map((d) => String(d.slug)),
+    );
+  }
+  return draftSlugCache;
+}
+
+// 下書きの記事へのリンクを外す。リンクで始まるリストの項目（「次に読む」など）は項目ごと消し、
+// 文中のリンクは文字だけにする。下書きを表示するとき（MEDIA_SHOW_DRAFTS=1）は何もしない
+function unlinkDrafts(html: string): string {
+  if (SHOW_DRAFTS) return html;
+  const drafts = draftSlugs();
+  const isDraft = (slug: string) => drafts.has(slug);
+  return html
+    .replace(/<li><a href="\/articles\/([a-z0-9-]+)">[\s\S]*?<\/li>\n?/g, (m, slug: string) => (isDraft(slug) ? '' : m))
+    .replace(/<a href="\/articles\/([a-z0-9-]+)">([\s\S]*?)<\/a>/g, (m, slug: string, text: string) => (isDraft(slug) ? text : m));
+}
+
 export function parseArticle(file: string): Article {
   const raw = fs.readFileSync(path.join(DIR, file), 'utf-8');
   const { data, content } = matter(raw);
@@ -94,7 +119,8 @@ export function parseArticle(file: string): Article {
     authorLabel: (['監修', '執筆・監修'] as const).find((l) => l === data.authorLabel) ?? '執筆',
     draft: Boolean(data.draft),
     noindex: Boolean(data.noindex),
-    html: inlineDiagrams(marked.parse(replaceSlides(content, SITE.name)) as string),
+    // 作業用のメモ（HTML コメント）はサイトの HTML に出さない
+    html: unlinkDrafts(inlineDiagrams(marked.parse(replaceSlides(content.replace(/<!--[\s\S]*?-->\n?/g, ''), SITE.name)) as string)),
   };
 }
 
