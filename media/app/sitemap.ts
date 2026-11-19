@@ -15,7 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: u('/articles'), lastModified: latest },
     { url: u('/about') },
     { url: u('/service') },
-    ...PILLARS.map((p) => ({ url: u(`/category/${p.slug}`), lastModified: latest })),
+    // 記事がまだないカテゴリは載せない
+    ...PILLARS.filter((p) => articles.some((a) => a.pillar === p.slug)).map((p) => ({ url: u(`/category/${p.slug}`), lastModified: latest })),
     ...getAllAuthors().map((a) => ({ url: u(`/authors/${a.slug}`) })),
     // lastModified は本文を更新したときの updatedAt（Google はこの値を参考にする）
     ...articles.map((a) => ({ url: u(`/articles/${a.slug}`), lastModified: new Date(a.updatedAt) })),

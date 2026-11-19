@@ -18,7 +18,10 @@ type Props = { params: Promise<{ pillar: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const p = getPillar((await params).pillar);
-  return p ? { title: p.name, description: p.description } : {};
+  if (!p) return {};
+  // 記事がまだないカテゴリは検索に出さない（中身のないページになるため）
+  const empty = getArticlesByPillar(p.slug).length === 0;
+  return { title: p.name, description: p.description, ...(empty ? { robots: { index: false, follow: true } } : {}) };
 }
 
 export default async function CategoryPage({ params }: Props) {
