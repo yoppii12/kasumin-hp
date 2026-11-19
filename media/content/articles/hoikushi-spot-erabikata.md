@@ -37,6 +37,12 @@ authorLabel: "監修"
 lead: "この記事は、東京都世田谷区の保育園に10年以上勤務し、保育園長として園運営に携わってきた平田香澄が監修しています。保育士が単発・スポットの仕事に応募する前に確かめておきたい5つのことを、厚生労働省とこども家庭庁の資料をもとにまとめました。"
 draft: true
 noindex: false
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "A"
+  main: "選ぶ前に"
+  accent: "5つの確認"
+  sub: "雇い主・仕事の内容・安全の確認（日本版DBS）"
 image: "/images/articles/hoikushi-spot-erabikata.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c8174b7b1dfc69df3c486"
 ---

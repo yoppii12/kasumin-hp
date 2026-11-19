@@ -29,6 +29,12 @@ sources:
     url: "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/chingin/newpage_43899.html"
   - title: "パートタイム・有期雇用労働法の概要（厚生労働省）"
     url: "https://www.mhlw.go.jp/content/11650000/000815524.pdf"
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "A"
+  main: "最低賃金"
+  accent: "1,087円"
+  sub: "保育士パートの時給の見方｜長崎県"
 image: "/images/articles/nagasaki-hoikushi-part-jikyu.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c8127b06cda83705d8b70"
 authorLabel: "監修"

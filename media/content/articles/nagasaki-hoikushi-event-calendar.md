@@ -35,6 +35,12 @@ sources:
     url: "https://www.nagasaki-shiencenter.jp/info.shtml?id=26iupUd"
   - title: "保育の仕事合同面談会（長崎県）"
     url: "https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/kekkon-nishin-shusan-kosodate/kosodateshien/kodomo-shisetsu/mendankai/"
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "A"
+  main: "11月"
+  accent: "の相談会・\nカフェの日程"
+  sub: "長崎の保育士さん向け｜毎月更新"
 image: "/images/articles/nagasaki-hoikushi-event-calendar.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c81fd8019ecb1ec66bdf4"
 authorLabel: "監修"

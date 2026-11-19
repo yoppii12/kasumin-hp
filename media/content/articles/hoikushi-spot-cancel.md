@@ -35,6 +35,12 @@ authorLabel: "監修"
 lead: "この記事は、東京都世田谷区の保育園に10年以上勤務し、保育園長として園運営に携わってきた平田香澄が監修しています。単発・スポットで働く予定だった日に園の都合でキャンセルされたときの扱いを、厚生労働省のリーフレットと労働基準法をもとに整理しました。"
 draft: true
 noindex: false
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "A"
+  main: "急なキャンセル"
+  accent: "休業手当"
+  sub: "園の都合で休みになったら｜平均賃金の60%以上"
 image: "/images/articles/hoikushi-spot-cancel.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c81eeba11f79e309905bc"
 ---

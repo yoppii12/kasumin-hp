@@ -31,6 +31,12 @@ sources:
     url: "https://nagasaki-pref-shakyo.jp/wp-content/uploads/b53398e7a45e7195d6b6874ac937d947-3.pdf"
 draft: true
 noindex: false
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "A"
+  main: "保育補助"
+  accent: "で戻る"
+  sub: "資格がある人が補助として働くときの扱い"
 image: "/images/articles/hoikushi-hoikuhojo-shikakuari.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c81c0bdc2d7c8768b08c8"
 authorLabel: "監修"

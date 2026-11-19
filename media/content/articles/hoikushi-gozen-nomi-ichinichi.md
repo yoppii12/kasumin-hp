@@ -21,6 +21,11 @@ sources:
     url: "https://laws.e-gov.go.jp/law/323M40000100063"
 draft: true
 noindex: false
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "B"
+  title: "午前だけ働く\n保育士の一日"
+  sub: "登園から給食前まで｜元園長の経験から"
 image: "/images/articles/hoikushi-gozen-nomi-ichinichi.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c81a99a06dd5f7048b106"
 authorLabel: "執筆"

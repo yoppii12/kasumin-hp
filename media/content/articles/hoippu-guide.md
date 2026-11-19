@@ -39,6 +39,12 @@ sources:
     url: "https://www.nagasaki-shiencenter.jp/info.shtml?id=26gmkzl"
   - title: "保いっぷインスタグラムはじめました！（保いっぷ）"
     url: "https://www.nagasaki-shiencenter.jp/info.shtml?id=26h3pJv"
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "A"
+  main: "保いっぷ"
+  accent: "の使い方"
+  sub: "登録から見学・職場体験まで"
 image: "/images/articles/hoippu-guide.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c81f783d3f7b96267695c"
 authorLabel: "監修"

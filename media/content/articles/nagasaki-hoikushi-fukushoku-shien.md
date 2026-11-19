@@ -43,6 +43,11 @@ sources:
     url: "https://jsite.mhlw.go.jp/nagasaki-roudoukyoku/content/contents/press-26092902.pdf"
   - title: "最低賃金制度の概要（厚生労働省）"
     url: "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/chingin/newpage_43875.html"
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "B"
+  title: "保育士に戻る\nときの支援まとめ"
+  sub: "窓口・お金・体験・相談会｜長崎県"
 image: "/images/articles/nagasaki-hoikushi-fukushoku-shien.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c81dc9c8cccce266a858c"
 authorLabel: "監修"

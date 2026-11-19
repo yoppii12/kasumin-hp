@@ -41,6 +41,12 @@ authorLabel: "監修"
 lead: "この記事は、東京都世田谷区の保育園に10年以上勤務し、保育園長として園運営に携わってきた平田香澄が監修しています。保育士が30日以内の単発の派遣で働けるのか、例外になる人の条件と、園と直接雇用契約を結ぶスポットワークとの違いを、法令の条文をもとに整理しました。"
 draft: true
 noindex: false
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "A"
+  main: "単発の派遣"
+  accent: "できる？"
+  sub: "日雇派遣の原則禁止と直接雇用の違い"
 image: "/images/articles/hoikushi-tanpatsu-haken.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c8160a2b3fe4f0ce4e6ed"
 ---

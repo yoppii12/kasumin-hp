@@ -33,6 +33,12 @@ authorLabel: "監修"
 lead: "この記事は、東京都世田谷区の保育園に10年以上勤務し、保育園長として園運営に携わってきた平田香澄が監修しています。単発・スポットで働く保育士が配置基準の人数に入るのかを、こども家庭庁の通知と配置基準の条文をもとに整理し、単発で入るときに確かめたい仕事の内容もまとめました。"
 draft: true
 noindex: false
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "A"
+  main: "配置基準"
+  accent: "に入る？"
+  sub: "スポット勤務の保育士とこども家庭庁の通知"
 image: "/images/articles/hoikushi-spot-haichi-kijun.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c81c99154e073341bef89"
 ---

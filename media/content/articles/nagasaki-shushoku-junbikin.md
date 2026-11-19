@@ -33,6 +33,12 @@ sources:
     url: "https://nagasaki-pref-shakyo.jp/work/step-up-loan/nursery-teacher-employment-reserve-fund/"
   - title: "保育士になりたい方、保育士への支援（長崎県）"
     url: "https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/kekkon-nishin-shusan-kosodate/kosodateshien/zinzaikakuho/hoikushi-sien/body.html"
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "A"
+  main: "就職準備金"
+  accent: "20万円"
+  sub: "2年で返還免除｜長崎県"
 image: "/images/articles/nagasaki-shushoku-junbikin.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c81658de6eb4e6d484d51"
 authorLabel: "執筆・監修"

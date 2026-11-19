@@ -45,6 +45,12 @@ sources:
     url: "https://www.mhlw.go.jp/stf/taiou_001_00002.html"
 draft: true
 noindex: false
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "A"
+  main: "扶養内"
+  accent: "の計算"
+  sub: "所得税178万円・社会保険130万円（2026年）"
 image: "/images/articles/hoikushi-fuyounai-2026.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c81ba81e3eea6fc9c9eaf"
 authorLabel: "監修"

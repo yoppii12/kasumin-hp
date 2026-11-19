@@ -41,6 +41,12 @@ sources:
     url: "https://nagasaki-pref-shakyo.jp/wp-content/uploads/b53398e7a45e7195d6b6874ac937d947-3.pdf"
 draft: true
 noindex: false
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "A"
+  main: "午前だけ・週2"
+  accent: "から戻る"
+  sub: "短い時間から保育士に戻る方法"
 image: "/images/articles/hoikushi-tanjikan-modoru.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c8191a99bcee1af1a4746"
 authorLabel: "監修"

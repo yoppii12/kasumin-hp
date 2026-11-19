@@ -45,6 +45,12 @@ authorLabel: "監修"
 lead: "この記事は、東京都世田谷区の保育園に10年以上勤務し、保育園長として園運営に携わってきた平田香澄が監修しています。保育士の資格を持つ方が、単発・スポットで保育の現場に入る前に知っておきたい働き方の種類と注意点を、国の資料をもとにまとめました。"
 draft: true
 noindex: false
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "A"
+  main: "単発・スポット"
+  accent: "5つの注意"
+  sub: "保育士が働く前に知っておきたいこと"
 image: "/images/articles/hoikushi-spot-hajimekata.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c81df8ee0c062970b5d9f"
 ---

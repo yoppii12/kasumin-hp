@@ -31,6 +31,12 @@ sources:
     url: "https://www.mhlw.go.jp/file/05-Shingikai-11901000-Koyoukintoujidoukateikyoku-Soumuka/0000199267.pdf"
 draft: true
 noindex: false
+# アイキャッチの文字（npm run eyecatch で画像を作る。ラベルは柱の名前、右下はメディア名が自動で入る）
+eyecatch:
+  type: "A"
+  main: "子育て中"
+  accent: "の復帰"
+  sub: "子どもの預け先｜長崎市は月64時間以上"
 image: "/images/articles/hoikushi-kosodate-fukki.jpg"
 notionUrl: "https://app.notion.com/p/40dc08e5f34c81998700dab9a8f72c74"
 authorLabel: "監修"
