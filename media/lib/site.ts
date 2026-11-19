@@ -12,8 +12,8 @@ export const SITE = {
     '短時間・単発のお仕事から保育に戻る方法、長崎の支援制度と窓口、復職の進め方を、保育士・元園長の目線で届けます。運営: 合同会社KASUMIN（えんまーる）',
   // サブドメインは確定（2026/11/03）。記事が検索に載った後は変えない
   url: 'https://media.kasumin.biz',
-  // 公開前は false（全ページ noindex・robots.txt で Disallow）。初回の記事がそろったら true にする
-  indexable: false,
+  // 公開前は false（全ページ noindex・robots.txt で Disallow）。2026/11/20 に初回8記事で公開
+  indexable: true,
   locale: 'ja_JP',
   ogImage: '/images/og_default.png',
 } as const;
