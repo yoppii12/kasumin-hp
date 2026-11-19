@@ -11,6 +11,9 @@ const DIR = path.join(process.cwd(), 'content', 'articles');
 // 開発時（npm run dev）だけ下書きも表示する。本番ビルドには入れない
 const SHOW_DRAFTS = process.env.MEDIA_SHOW_DRAFTS === '1';
 
+// 著者欄の肩書き。執筆・監修は、本人が書いた文章と監修を合わせた記事（2026/11 平田さんの指定）
+export type AuthorLabel = '執筆' | '監修' | '執筆・監修';
+
 export type Faq = { q: string; a: string };
 export type Source = { title: string; url: string };
 export type CtaType = 'line' | 'line-area';
@@ -34,7 +37,7 @@ export type ArticleMeta = {
   image?: string;
   // 冒頭の監修者紹介文（ある記事だけ冒頭に表示）と、著者欄の肩書き（執筆／監修）
   lead?: string;
-  authorLabel: '執筆' | '監修';
+  authorLabel: AuthorLabel;
   draft: boolean;
   noindex: boolean;
 };
@@ -88,7 +91,7 @@ export function parseArticle(file: string): Article {
     sources: data.sources ?? [],
     image: imageIfExists(data.image),
     lead: data.lead || undefined,
-    authorLabel: data.authorLabel === '監修' ? '監修' : '執筆',
+    authorLabel: (['監修', '執筆・監修'] as const).find((l) => l === data.authorLabel) ?? '執筆',
     draft: Boolean(data.draft),
     noindex: Boolean(data.noindex),
     html: inlineDiagrams(marked.parse(replaceSlides(content, SITE.name)) as string),

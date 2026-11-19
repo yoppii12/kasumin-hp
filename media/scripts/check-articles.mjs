@@ -93,7 +93,7 @@ for (const f of files) {
   if (!data.isPillar && pa && !links.includes(pa)) warn(`柱の記事（/articles/${pa}）へのリンクがない`);
   // 2) 監修者の表示
   if (!data.lead) warn('lead（冒頭の監修者紹介）がない');
-  if (!['監修', '執筆'].includes(data.authorLabel)) warn('authorLabel（監修／執筆）がない');
+  if (!['監修', '執筆', '執筆・監修'].includes(data.authorLabel)) warn('authorLabel（監修／執筆／執筆・監修）がない');
   // 3) 文字数: 本文2,000字以上・各h2 200字以上を目安（lengthExempt: true の記事は除く）
   if (!data.lengthExempt) {
     const n = visible(content).length;

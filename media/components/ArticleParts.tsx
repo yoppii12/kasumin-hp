@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import type { Article } from '@/lib/articles';
+import type { Article, AuthorLabel } from '@/lib/articles';
 import type { Author } from '@/lib/authors';
 
 const fmt = (d: string) => d.replace(/-/g, '/');
@@ -102,9 +102,9 @@ export function AuthorLead({ a, author }: { a: Article; author?: Author }) {
   );
 }
 
-export function AuthorBox({ author, label = '執筆' }: { author?: Author; label?: '執筆' | '監修' }) {
+export function AuthorBox({ author, label = '執筆' }: { author?: Author; label?: AuthorLabel }) {
   if (!author) return null;
-  const heading = label === '監修' ? '監修者プロフィール' : 'この記事を書いた人';
+  const heading = label === '監修' ? '監修者プロフィール' : label === '執筆・監修' ? '執筆・監修者プロフィール' : 'この記事を書いた人';
   return (
     <section className="author-box" aria-label={heading}>
       <p className="author-box__label">{heading}</p>
