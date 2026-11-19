@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 688" role="img" aria-labelledby="nagasaki-hoikushi-fukushoku-shien-start-t">
+<title id="nagasaki-hoikushi-fukushoku-shien-start-t">どこから始めればいい？／いまの状況に近いものは？／1 戻るかどうか、まだ決めていない→カフェ・相談会で話を聞いてみる（同じように現場を離れている保育士さんや、センターの相談員と話せます）／2 働く園を探したい→保いっぷに求職登録して相談する（求人の情報を受け取りながら、見学や面接の日程を相談できます）／3 短い時間・単発から試したい→えんまーるで募集を見てみる（午前のみ・単発・週1などの募集を見て、自分で応募できます）</title>
+<style>.h{font:700 26px var(--font-ja,sans-serif);fill:#333}.b{font:400 22px var(--font-body,sans-serif);fill:#333}.bb{font:700 24px var(--font-body,sans-serif);fill:#333}.s{font:400 20px var(--font-body,sans-serif);fill:#666}.n{font:700 22px var(--font-body,sans-serif);fill:#333}.t{font:700 28px var(--font-ja,sans-serif);fill:#333}</style>
+<text class="t" x="0" y="30">どこから始めればいい？</text>
+<rect x="1" y="52" width="638" height="66" rx="30" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<text class="bb" x="320" y="92" text-anchor="middle">いまの状況に近いものは？</text>
+<rect x="1" y="134" width="638" height="172" rx="14" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="220" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="228" text-anchor="middle">1</text>
+<text class="s" x="96" y="176">戻るかどうか、まだ決めていない</text>
+<text class="bb" x="96" y="212">→ カフェ・相談会で話を聞いてみる</text>
+<text class="s" x="96" y="250">同じように現場を離れている保育士さんや、センターの相</text><text class="s" x="96" y="278">談員と話せます</text>
+<rect x="1" y="318" width="638" height="172" rx="14" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="404" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="412" text-anchor="middle">2</text>
+<text class="s" x="96" y="360">働く園を探したい</text>
+<text class="bb" x="96" y="396">→ 保いっぷに求職登録して相談する</text>
+<text class="s" x="96" y="434">求人の情報を受け取りながら、見学や面接の日程を相談で</text><text class="s" x="96" y="462">きます</text>
+<rect x="1" y="502" width="638" height="172" rx="14" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="588" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="596" text-anchor="middle">3</text>
+<text class="s" x="96" y="544">短い時間・単発から試したい</text>
+<text class="bb" x="96" y="580">→ えんまーるで募集を見てみる</text>
+<text class="s" x="96" y="618">午前のみ・単発・週1などの募集を見て、自分で応募でき</text><text class="s" x="96" y="646">ます</text>
+</svg>

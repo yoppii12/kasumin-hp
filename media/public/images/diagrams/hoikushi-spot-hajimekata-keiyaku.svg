@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 694" role="img" aria-labelledby="hoikushi-spot-hajimekata-keiyaku-t">
+<title id="hoikushi-spot-hajimekata-keiyaku-t">単発で働く形と、雇い主／直接雇用（スポットワーク）：保育士と園（雇用契約）。アプリやサイトを通して応募しても、雇い主は園です。単発（30日以内）でも働けます／派遣：保育士と派遣会社（雇用契約）、派遣会社と園（派遣の契約）、保育士と園（園で働く）。雇い主は派遣会社。単発（30日以内）の派遣は原則禁止で、60歳以上の方などは例外です</title>
+<style>.h{font:700 26px var(--font-ja,sans-serif);fill:#333}.b{font:400 22px var(--font-body,sans-serif);fill:#333}.bb{font:700 24px var(--font-body,sans-serif);fill:#333}.s{font:400 20px var(--font-body,sans-serif);fill:#666}.n{font:700 22px var(--font-body,sans-serif);fill:#333}.t{font:700 28px var(--font-ja,sans-serif);fill:#333}</style>
+<rect x="1" y="340" width="638" height="352" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<rect x="1" y="52" width="638" height="272" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<text class="t" x="0" y="30">単発で働く形と、雇い主</text>
+<text class="h" x="24" y="98">直接雇用（スポットワーク）</text>
+<path d="M204 192 H436" stroke="#F4A7B9" stroke-width="3"/>
+<text class="s" x="320" y="150" text-anchor="middle">雇用契約</text>
+<rect x="24" y="160" width="180" height="64" rx="12" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<text class="bb" x="114" y="201" text-anchor="middle">保育士</text>
+<rect x="436" y="160" width="180" height="64" rx="12" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<text class="bb" x="526" y="201" text-anchor="middle">園</text>
+<text class="s" x="24" y="264">アプリやサイトを通して応募しても、雇い主は園です。単発（30</text><text class="s" x="24" y="292">日以内）でも働けます</text>
+<text class="h" x="24" y="386">派遣</text>
+<path d="M174 480 H245" stroke="#F4A7B9" stroke-width="3"/>
+<text class="s" x="209.5" y="438" text-anchor="middle">雇用契約</text>
+<path d="M395 480 H466" stroke="#F4A7B9" stroke-width="3"/>
+<text class="s" x="430.5" y="438" text-anchor="middle">派遣の契約</text>
+<path d="M99 512 V556 H541 V512" stroke="#AAAAAA" stroke-width="2.5" stroke-dasharray="8 6" fill="none"/>
+<text class="s" x="320" y="584" text-anchor="middle">園で働く</text>
+<rect x="24" y="448" width="150" height="64" rx="12" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<text class="bb" x="99" y="489" text-anchor="middle">保育士</text>
+<rect x="245" y="448" width="150" height="64" rx="12" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<text class="bb" x="320" y="489" text-anchor="middle">派遣会社</text>
+<rect x="466" y="448" width="150" height="64" rx="12" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<text class="bb" x="541" y="489" text-anchor="middle">園</text>
+<text class="s" x="24" y="632">雇い主は派遣会社。単発（30日以内）の派遣は原則禁止で、60歳</text><text class="s" x="24" y="660">以上の方などは例外です</text>
+</svg>

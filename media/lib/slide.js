@@ -17,7 +17,7 @@ const PAD = 32;
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 // 日本語は1文字＝フォントサイズ分の幅、半角は約0.55倍として折り返す
-function wrap(text, fontSize, maxWidth) {
+export function wrap(text, fontSize, maxWidth) {
   const lines = [];
   let line = '';
   let w = 0;

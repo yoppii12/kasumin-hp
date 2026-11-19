@@ -51,6 +51,8 @@ notionUrl: "https://app.notion.com/p/40dc08e5f34c81c99154e073341bef89"
 
 ## 保育所の配置基準
 
+![保育士1人あたりの子どもの数（配置基準）](/images/diagrams/hoikushi-spot-haichi-kijun-ratio.svg)
+
 | 子どもの年齢 | 保育士1人あたりの子どもの数（おおむね） |
 |---|---|
 | 0歳 | 3人 |
