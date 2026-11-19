@@ -66,6 +66,9 @@ export default async function ArticlePage({ params }: Props) {
       <article className="article">
         {a.draft && <p className="draft-badge">下書き（本番には出ません）</p>}
         <h1 className="article__title">{a.title}</h1>
+        {a.image && (
+          <img className="article__eyecatch" src={a.image} alt="" width={1200} height={630} fetchPriority="high" decoding="async" />
+        )}
         <ArticleByline a={a} author={author} reviewer={reviewer} />
         <AuthorLead a={a} author={author} />
         <Summary items={a.summary} />

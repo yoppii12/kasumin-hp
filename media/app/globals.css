@@ -47,6 +47,11 @@ ul { list-style: none; }
 .card__pillar { display: block; font-size: 12px; color: var(--c-sub); }
 .card__title { display: block; font-weight: 700; line-height: 1.6; margin: 4px 0; }
 .card__date { display: block; font-size: 12px; color: var(--c-line); }
+/* アイキャッチつきのカード: スマホは左に小さく、広い画面は少し大きく */
+.card a.card__link--img { display: grid; grid-template-columns: 128px 1fr; gap: 12px; align-items: start; }
+.card__img { width: 100%; aspect-ratio: 1200 / 630; object-fit: cover; border-radius: 4px; border: 1px solid #eeeeee; }
+@media (min-width: 640px) { .card a.card__link--img { grid-template-columns: 200px 1fr; gap: 16px; } }
+.article__eyecatch { display: block; width: 100%; aspect-ratio: 1200 / 630; object-fit: cover; border-radius: 8px; border: 1px solid #eeeeee; margin: 0 0 16px; }
 .pillars { display: grid; gap: 12px; }
 .pillars a { display: block; padding: 16px; background: var(--c-bg); border-radius: 8px; text-decoration: none; }
 .pillars__name { display: block; font-weight: 700; }

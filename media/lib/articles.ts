@@ -41,6 +41,12 @@ export type ArticleMeta = {
 
 export type Article = ArticleMeta & { html: string };
 
+// アイキャッチは public/ にファイルがあるときだけ使う（無いと一覧・記事・OGP の画像が切れるため）
+function imageIfExists(v: unknown): string | undefined {
+  if (typeof v !== 'string' || !v.startsWith('/')) return undefined;
+  return fs.existsSync(path.join(process.cwd(), 'public', v)) ? v : undefined;
+}
+
 // YAML の日付は Date になるため YYYY-MM-DD に揃える
 function toDate(v: unknown): string {
   if (v instanceof Date) return v.toISOString().slice(0, 10);
@@ -80,7 +86,7 @@ export function parseArticle(file: string): Article {
     summary: data.summary ?? [],
     faq: data.faq ?? [],
     sources: data.sources ?? [],
-    image: data.image,
+    image: imageIfExists(data.image),
     lead: data.lead || undefined,
     authorLabel: data.authorLabel === '監修' ? '監修' : '執筆',
     draft: Boolean(data.draft),

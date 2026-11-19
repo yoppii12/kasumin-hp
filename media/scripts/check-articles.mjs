@@ -71,6 +71,7 @@ for (const f of files) {
   if (data.reviewer && !AUTHORS.has(data.reviewer)) err(`reviewer が content/authors にない: ${data.reviewer}`);
   if (data.cta && !['line', 'line-area'].includes(data.cta)) err(`cta が不正: ${data.cta}`);
   if (toDate(data.updatedAt) < toDate(data.publishedAt)) err('updatedAt が publishedAt より前');
+  if (data.image && !fs.existsSync(path.join(ROOT, 'public', data.image))) warn(`image のファイルが public${data.image} にない（アイキャッチが表示されない）`);
   if (!data.draft) {
     if (!Array.isArray(data.sources) || !data.sources.length) err('公開する記事は sources（出典）が1件以上必要');
     if (!Array.isArray(data.summary) || !data.summary.length) warn('summary（要点）がない');
