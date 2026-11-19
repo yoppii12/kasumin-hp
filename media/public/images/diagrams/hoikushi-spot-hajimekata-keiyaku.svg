@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 694" role="img" aria-labelledby="hoikushi-spot-hajimekata-keiyaku-t">
-<title id="hoikushi-spot-hajimekata-keiyaku-t">単発で働く形と、雇い主／直接雇用（スポットワーク）：保育士と園（雇用契約）。アプリやサイトを通して応募しても、雇い主は園です。単発（30日以内）でも働けます／派遣：保育士と派遣会社（雇用契約）、派遣会社と園（派遣の契約）、保育士と園（園で働く）。雇い主は派遣会社。単発（30日以内）の派遣は原則禁止で、60歳以上の方などは例外です</title>
+<title id="hoikushi-spot-hajimekata-keiyaku-t">単発で働く形と、雇い主／直接雇用（スポットワーク）：保育士と園（雇用契約）。アプリやサイトを通して応募しても、雇い主は園です。単発（30日以内）でも働けます／派遣：保育士と派遣会社（雇用契約）、派遣会社と園（派遣の契約）、保育士と園（園で働く）。雇い主は派遣会社。雇用期間30日以内の派遣（日雇派遣）は原則禁止で、60歳以上の方などは例外です</title>
 <style>.h{font:700 26px var(--font-ja,sans-serif);fill:#333}.b{font:400 22px var(--font-body,sans-serif);fill:#333}.bb{font:700 24px var(--font-body,sans-serif);fill:#333}.s{font:400 20px var(--font-body,sans-serif);fill:#666}.n{font:700 22px var(--font-body,sans-serif);fill:#333}.t{font:700 28px var(--font-ja,sans-serif);fill:#333}</style>
 <rect x="1" y="340" width="638" height="352" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
 <rect x="1" y="52" width="638" height="272" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
@@ -25,5 +25,5 @@
 <text class="bb" x="320" y="489" text-anchor="middle">派遣会社</text>
 <rect x="466" y="448" width="150" height="64" rx="12" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
 <text class="bb" x="541" y="489" text-anchor="middle">園</text>
-<text class="s" x="24" y="632">雇い主は派遣会社。単発（30日以内）の派遣は原則禁止で、60歳</text><text class="s" x="24" y="660">以上の方などは例外です</text>
+<text class="s" x="24" y="632">雇い主は派遣会社。雇用期間30日以内の派遣（日雇派遣）は原則</text><text class="s" x="24" y="660">禁止で、60歳以上の方などは例外です</text>
 </svg>
