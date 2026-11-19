@@ -19,6 +19,8 @@ export const metadata: Metadata = {
   robots: SITE.indexable ? { index: true, follow: true } : { index: false, follow: false },
   openGraph: { type: 'website', siteName: SITE.name, locale: SITE.locale, images: [SITE.ogImage] },
   twitter: { card: 'summary_large_image' },
+  // Search Console の所有権確認（URLプレフィックス https://media.kasumin.biz・HTMLタグ方式）
+  verification: { google: '0ff_1XxyrnDvciMHARIaKSNuWawmOfETvZA6X98KcZA' },
 };
 
 // HP と同じ GTM コンテナ。本番ホスト（kasumin.biz とそのサブドメイン）でだけ読み込む
