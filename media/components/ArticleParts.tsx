@@ -69,6 +69,9 @@ export function Sources({ sources }: { sources: Article['sources'] }) {
           </li>
         ))}
       </ul>
+      <p className="sources__note">
+        この記事は、上の資料をもとに最終更新日の時点の情報で書いています。制度は変わることがあり、個別の状況によって扱いが異なる場合があります。ご自身の場合にどうなるか迷うときは、資料の窓口や専門家（社会保険労務士・税理士など）にご相談ください。
+      </p>
     </section>
   );
 }

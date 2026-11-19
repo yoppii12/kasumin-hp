@@ -87,6 +87,7 @@ ul { list-style: none; }
 .faq dt { font-weight: 700; }
 .faq dd { color: var(--c-text); }
 .sources li { list-style: disc; margin-left: 20px; font-size: 14px; }
+.sources__note { margin-top: 12px; font-size: 13px; color: var(--c-sub); line-height: 1.7; }
 .author-box { margin-top: 32px; padding: 16px 20px; border: 1px solid #eeeeee; border-radius: 8px; font-size: 14px; }
 .author-box__label { font-size: 12px; color: var(--c-sub); }
 .author-box__name { font-weight: 700; display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; }
