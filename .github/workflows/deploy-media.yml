@@ -1,11 +1,12 @@
-# オウンドメディア（media.kasumin.biz）を main への push で自動ビルドし、さくらVPSへ同期する
+# オウンドメディア（media.kasumin.biz）を main または現行デフォルトブランチへの push で自動ビルドし、さくらVPSへ同期する
+# （HP の deploy.yml と同じ。ブランチを main へ整理したら claude/... の行は削除してよい）
 # HP（deploy.yml）と同じ Secrets（VPS_HOST / VPS_USER / VPS_SSH_KEY）を使う
 # 初回の前に VPS 側の準備が必要: docs/261103_オウンドメディア設計案.md「9. 公開までの作業」
 name: Deploy media to Sakura VPS
 
 on:
   push:
-    branches: [main]
+    branches: [main, claude/kasumin-hp-migration-phase1-97pogm]
     paths: ['media/**', '.github/workflows/deploy-media.yml']
   workflow_dispatch:
 
