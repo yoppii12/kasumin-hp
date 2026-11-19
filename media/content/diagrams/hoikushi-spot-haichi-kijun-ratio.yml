@@ -1,0 +1,14 @@
+# スポット勤務の保育士は配置基準に入る？／「保育所の配置基準」
+type: ratio
+title: 保育士1人あたりの子どもの数（配置基準）
+rows:
+  - label: 0歳
+    count: 3
+  - label: 1・2歳
+    count: 6
+  - label: 3歳
+    count: 15
+    note: 2028年3月末までは20人でも可
+  - label: 4・5歳
+    count: 25
+    note: 当分の間は30人でも可

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 632" role="img" aria-labelledby="hoikushi-hoikuhojo-shikakuari-hantei-t">
+<title id="hoikushi-hoikuhojo-shikakuari-hantei-t">補助として入るときの扱い／保育士登録をしている？／1 登録していない（資格はある）→法律上は保育士ではない（補助として働くことはできる。「保育士」とは名乗れない）／2 登録していて、配置基準に数えられる立場で入る→クラスの保育を担う1人として扱われる（職名が「補助」でも、法律上は保育士）／3 登録していて、配置基準に数えられない立場で入る→担任の保育士を支える役割が中心（どちらの立場かは園が決める。働き始める前に確かめておく）</title>
+<style>.h{font:700 26px var(--font-ja,sans-serif);fill:#333}.b{font:400 22px var(--font-body,sans-serif);fill:#333}.bb{font:700 24px var(--font-body,sans-serif);fill:#333}.s{font:400 20px var(--font-body,sans-serif);fill:#666}.n{font:700 22px var(--font-body,sans-serif);fill:#333}.t{font:700 28px var(--font-ja,sans-serif);fill:#333}</style>
+<text class="t" x="0" y="30">補助として入るときの扱い</text>
+<rect x="1" y="52" width="638" height="66" rx="30" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<text class="bb" x="320" y="92" text-anchor="middle">保育士登録をしている？</text>
+<rect x="1" y="134" width="638" height="144" rx="14" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="206" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="214" text-anchor="middle">1</text>
+<text class="s" x="96" y="176">登録していない（資格はある）</text>
+<text class="bb" x="96" y="212">→ 法律上は保育士ではない</text>
+<text class="s" x="96" y="250">補助として働くことはできる。「保育士」とは名乗れない</text>
+<rect x="1" y="290" width="638" height="144" rx="14" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="362" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="370" text-anchor="middle">2</text>
+<text class="s" x="96" y="332">登録していて、配置基準に数えられる立場で入る</text>
+<text class="bb" x="96" y="368">→ クラスの保育を担う1人として扱われる</text>
+<text class="s" x="96" y="406">職名が「補助」でも、法律上は保育士</text>
+<rect x="1" y="446" width="638" height="172" rx="14" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="532" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="540" text-anchor="middle">3</text>
+<text class="s" x="96" y="488">登録していて、配置基準に数えられない立場で入る</text>
+<text class="bb" x="96" y="524">→ 担任の保育士を支える役割が中心</text>
+<text class="s" x="96" y="562">どちらの立場かは園が決める。働き始める前に確かめてお</text><text class="s" x="96" y="590">く</text>
+</svg>

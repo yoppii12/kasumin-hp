@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 634" role="img" aria-labelledby="hoikushi-tanjikan-modoru-jikan-t">
+<title id="hoikushi-tanjikan-modoru-jikan-t">働き方と年収の目安（時給1,100円の場合）／週に働く時間／週8時間 1日4時間 × 週2日（年収の目安 約46万円）／週16時間 1日4時間 × 週4日（年収の目安 約92万円）／週20時間 1日4時間 × 週5日（年収の目安 約114万円。週20時間以上は、勤務先の規模などの条件を満たすと社会保険の対象）／週25時間 1日5時間 × 週5日（年収の目安 約143万円（130万円を超える））</title>
+<style>.h{font:700 26px var(--font-ja,sans-serif);fill:#333}.b{font:400 22px var(--font-body,sans-serif);fill:#333}.bb{font:700 24px var(--font-body,sans-serif);fill:#333}.s{font:400 20px var(--font-body,sans-serif);fill:#666}.n{font:700 22px var(--font-body,sans-serif);fill:#333}.t{font:700 28px var(--font-ja,sans-serif);fill:#333}</style>
+<text class="t" x="0" y="30">働き方と年収の目安（時給1,100円の場合）</text>
+<text class="s" x="172" y="72" text-anchor="middle">週に働く時間</text>
+<path d="M172 86 V628" stroke="#AAAAAA" stroke-width="3"/>
+<path d="M163 616 L172 628 L181 616" stroke="#AAAAAA" stroke-width="3" fill="none"/>
+<rect x="204" y="92" width="435" height="100" rx="12" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="172" cy="142" r="8" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="3"/>
+<path d="M180 142 H204" stroke="#E5E5E5" stroke-width="2"/>
+<text class="bb" x="154" y="150" text-anchor="end">週8時間</text>
+<text class="bb" x="222" y="130">1日4時間 × 週2日</text>
+<text class="s" x="222" y="166">年収の目安 約46万円</text>
+<rect x="204" y="206" width="435" height="100" rx="12" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="172" cy="256" r="8" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="3"/>
+<path d="M180 256 H204" stroke="#E5E5E5" stroke-width="2"/>
+<text class="bb" x="154" y="264" text-anchor="end">週16時間</text>
+<text class="bb" x="222" y="244">1日4時間 × 週4日</text>
+<text class="s" x="222" y="280">年収の目安 約92万円</text>
+<rect x="204" y="320" width="435" height="156" rx="12" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2.5"/>
+<circle cx="172" cy="398" r="8" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="3"/>
+<path d="M180 398 H204" stroke="#E5E5E5" stroke-width="2"/>
+<text class="bb" x="154" y="406" text-anchor="end">週20時間</text>
+<text class="bb" x="222" y="358">1日4時間 × 週5日</text>
+<text class="s" x="222" y="394">年収の目安 約114万円。週20時間以上は</text><text class="s" x="222" y="422">、勤務先の規模などの条件を満たすと社</text><text class="s" x="222" y="450">会保険の対象</text>
+<rect x="204" y="490" width="435" height="128" rx="12" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="172" cy="554" r="8" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="3"/>
+<path d="M180 554 H204" stroke="#E5E5E5" stroke-width="2"/>
+<text class="bb" x="154" y="562" text-anchor="end">週25時間</text>
+<text class="bb" x="222" y="528">1日5時間 × 週5日</text>
+<text class="s" x="222" y="564">年収の目安 約143万円（130万円を超え</text><text class="s" x="222" y="592">る）</text>
+</svg>

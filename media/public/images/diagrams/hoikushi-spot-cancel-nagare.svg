@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 754" role="img" aria-labelledby="hoikushi-spot-cancel-nagare-t">
+<title id="hoikushi-spot-cancel-nagare-t">応募してから、キャンセルされたときまで／1 募集に応募する（面接がなく先着順で決まる募集で、特別な取り決めがなければ、応募した時点で契約が成立すると一般的には考えられる）／2 労働契約が成立する（労働基準法などの労働関係の法令が当てはまるようになる）／3 園の都合でキャンセル・早上がり（休業手当（平均賃金の60%以上）の対象。支払いは園の所定の賃金支払日まで）／4 支払われないとき（まず園に支払いを求める。額が分からないときは労働基準監督署に相談）</title>
+<style>.h{font:700 26px var(--font-ja,sans-serif);fill:#333}.b{font:400 22px var(--font-body,sans-serif);fill:#333}.bb{font:700 24px var(--font-body,sans-serif);fill:#333}.s{font:400 20px var(--font-body,sans-serif);fill:#666}.n{font:700 22px var(--font-body,sans-serif);fill:#333}.t{font:700 28px var(--font-ja,sans-serif);fill:#333}</style>
+<text class="t" x="0" y="30">応募してから、キャンセルされたときまで</text>
+<rect x="1" y="52" width="638" height="172" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="138" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="146" text-anchor="middle">1</text>
+<text class="h" x="96" y="96">募集に応募する</text>
+<text class="s" x="96" y="134">面接がなく先着順で決まる募集で、特別な取り決めがなけ</text><text class="s" x="96" y="162">れば、応募した時点で契約が成立すると一般的には考えら</text><text class="s" x="96" y="190">れる</text>
+<path d="M52 228 V252" stroke="#AAAAAA" stroke-width="3" fill="none"/><path d="M43 248 L52 260 L61 248" stroke="#AAAAAA" stroke-width="3" fill="none"/>
+<rect x="1" y="264" width="638" height="116" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="322" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="330" text-anchor="middle">2</text>
+<text class="h" x="96" y="308">労働契約が成立する</text>
+<text class="s" x="96" y="346">労働基準法などの労働関係の法令が当てはまるようになる</text>
+<path d="M52 384 V408" stroke="#AAAAAA" stroke-width="3" fill="none"/><path d="M43 404 L52 416 L61 404" stroke="#AAAAAA" stroke-width="3" fill="none"/>
+<rect x="1" y="420" width="638" height="144" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="492" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="500" text-anchor="middle">3</text>
+<text class="h" x="96" y="464">園の都合でキャンセル・早上がり</text>
+<text class="s" x="96" y="502">休業手当（平均賃金の60%以上）の対象。支払いは園の所</text><text class="s" x="96" y="530">定の賃金支払日まで</text>
+<path d="M52 568 V592" stroke="#AAAAAA" stroke-width="3" fill="none"/><path d="M43 588 L52 600 L61 588" stroke="#AAAAAA" stroke-width="3" fill="none"/>
+<rect x="1" y="604" width="638" height="144" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="676" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="684" text-anchor="middle">4</text>
+<text class="h" x="96" y="648">支払われないとき</text>
+<text class="s" x="96" y="686">まず園に支払いを求める。額が分からないときは労働基準</text><text class="s" x="96" y="714">監督署に相談</text>
+</svg>

@@ -1,0 +1,29 @@
+# オウンドメディア（media/）の点検: 記事の frontmatter・禁止語の検査とビルド
+name: Media check
+
+on:
+  pull_request:
+    paths: ['media/**', '.github/workflows/media-check.yml']
+  push:
+    branches-ignore: [main]
+    paths: ['media/**', '.github/workflows/media-check.yml']
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: media/package-lock.json
+      - name: Install
+        working-directory: media
+        run: npm ci
+      - name: Check articles
+        working-directory: media
+        run: npm run check
+      - name: Build
+        working-directory: media
+        run: npm run build

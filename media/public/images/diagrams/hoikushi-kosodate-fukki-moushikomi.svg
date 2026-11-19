@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 726" role="img" aria-labelledby="hoikushi-kosodate-fukki-moushikomi-t">
+<title id="hoikushi-kosodate-fukki-moushikomi-t">長崎市で保育所に申し込むまで／1 空き状況を見る（長崎市の「イーカオ」に掲載（毎月20日ごろ更新）。空きがない施設にも申し込める）／2 勤務先に就労証明書を書いてもらう（国の標準様式。保育が必要かどうかの判定に使われる）／3 申し込む（保育利用申込書と教育・保育給付認定申請書。幼児課などで提出（郵送も可））／4 入所が決まる（申し込みの順番ではなく、保育の必要性が高い方から。就労は勤務時間や日数で優先順位が決まる）</title>
+<style>.h{font:700 26px var(--font-ja,sans-serif);fill:#333}.b{font:400 22px var(--font-body,sans-serif);fill:#333}.bb{font:700 24px var(--font-body,sans-serif);fill:#333}.s{font:400 20px var(--font-body,sans-serif);fill:#666}.n{font:700 22px var(--font-body,sans-serif);fill:#333}.t{font:700 28px var(--font-ja,sans-serif);fill:#333}</style>
+<text class="t" x="0" y="30">長崎市で保育所に申し込むまで</text>
+<rect x="1" y="52" width="638" height="144" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="124" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="132" text-anchor="middle">1</text>
+<text class="h" x="96" y="96">空き状況を見る</text>
+<text class="s" x="96" y="134">長崎市の「イーカオ」に掲載（毎月20日ごろ更新）。空</text><text class="s" x="96" y="162">きがない施設にも申し込める</text>
+<path d="M52 200 V224" stroke="#AAAAAA" stroke-width="3" fill="none"/><path d="M43 220 L52 232 L61 220" stroke="#AAAAAA" stroke-width="3" fill="none"/>
+<rect x="1" y="236" width="638" height="116" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="294" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="302" text-anchor="middle">2</text>
+<text class="h" x="96" y="280">勤務先に就労証明書を書いてもらう</text>
+<text class="s" x="96" y="318">国の標準様式。保育が必要かどうかの判定に使われる</text>
+<path d="M52 356 V380" stroke="#AAAAAA" stroke-width="3" fill="none"/><path d="M43 376 L52 388 L61 376" stroke="#AAAAAA" stroke-width="3" fill="none"/>
+<rect x="1" y="392" width="638" height="144" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="464" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="472" text-anchor="middle">3</text>
+<text class="h" x="96" y="436">申し込む</text>
+<text class="s" x="96" y="474">保育利用申込書と教育・保育給付認定申請書。幼児課など</text><text class="s" x="96" y="502">で提出（郵送も可）</text>
+<path d="M52 540 V564" stroke="#AAAAAA" stroke-width="3" fill="none"/><path d="M43 560 L52 572 L61 560" stroke="#AAAAAA" stroke-width="3" fill="none"/>
+<rect x="1" y="576" width="638" height="144" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="52" cy="648" r="22" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2"/><text class="n" x="52" y="656" text-anchor="middle">4</text>
+<text class="h" x="96" y="620">入所が決まる</text>
+<text class="s" x="96" y="658">申し込みの順番ではなく、保育の必要性が高い方から。就</text><text class="s" x="96" y="686">労は勤務時間や日数で優先順位が決まる</text>
+</svg>

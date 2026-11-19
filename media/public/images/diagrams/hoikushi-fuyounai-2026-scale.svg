@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 744" role="img" aria-labelledby="hoikushi-fuyounai-2026-scale-t">
+<title id="hoikushi-fuyounai-2026-scale-t">年収で見る「扶養」の境目（2026年）／本人の年収（給与収入）／約106.5万円 住民税がかかり始める目安（自治体で違う。長崎市・単身・2026年度の例）／130万円 社会保険の扶養から外れる（配偶者の健康保険・年金の扶養。130万円未満なら入れる（労働契約の内容で判断））／136万円 配偶者特別控除に変わる（配偶者控除から変わる（配偶者の税金の話）。急に大きく増えるわけではない）／178万円 本人に所得税がかかり始める（2026年分・2027年分の特例）／207万円 配偶者特別控除の対象外になる</title>
+<style>.h{font:700 26px var(--font-ja,sans-serif);fill:#333}.b{font:400 22px var(--font-body,sans-serif);fill:#333}.bb{font:700 24px var(--font-body,sans-serif);fill:#333}.s{font:400 20px var(--font-body,sans-serif);fill:#666}.n{font:700 22px var(--font-body,sans-serif);fill:#333}.t{font:700 28px var(--font-ja,sans-serif);fill:#333}</style>
+<text class="t" x="0" y="30">年収で見る「扶養」の境目（2026年）</text>
+<text class="s" x="172" y="72" text-anchor="middle">本人の年収（給与収入）</text>
+<path d="M172 86 V738" stroke="#AAAAAA" stroke-width="3"/>
+<path d="M163 726 L172 738 L181 726" stroke="#AAAAAA" stroke-width="3" fill="none"/>
+<rect x="204" y="92" width="435" height="128" rx="12" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="172" cy="156" r="8" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="3"/>
+<path d="M180 156 H204" stroke="#E5E5E5" stroke-width="2"/>
+<text class="bb" x="154" y="164" text-anchor="end">約106.5万円</text>
+<text class="bb" x="222" y="130">住民税がかかり始める目安</text>
+<text class="s" x="222" y="166">自治体で違う。長崎市・単身・2026年度</text><text class="s" x="222" y="194">の例</text>
+<rect x="204" y="234" width="435" height="156" rx="12" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2.5"/>
+<circle cx="172" cy="312" r="8" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="3"/>
+<path d="M180 312 H204" stroke="#E5E5E5" stroke-width="2"/>
+<text class="bb" x="154" y="320" text-anchor="end">130万円</text>
+<text class="bb" x="222" y="272">社会保険の扶養から外れる</text>
+<text class="s" x="222" y="308">配偶者の健康保険・年金の扶養。130万円</text><text class="s" x="222" y="336">未満なら入れる（労働契約の内容で判断</text><text class="s" x="222" y="364">）</text>
+<rect x="204" y="404" width="435" height="128" rx="12" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="172" cy="468" r="8" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="3"/>
+<path d="M180 468 H204" stroke="#E5E5E5" stroke-width="2"/>
+<text class="bb" x="154" y="476" text-anchor="end">136万円</text>
+<text class="bb" x="222" y="442">配偶者特別控除に変わる</text>
+<text class="s" x="222" y="478">配偶者控除から変わる（配偶者の税金の</text><text class="s" x="222" y="506">話）。急に大きく増えるわけではない</text>
+<rect x="204" y="546" width="435" height="100" rx="12" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="172" cy="596" r="8" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="3"/>
+<path d="M180 596 H204" stroke="#E5E5E5" stroke-width="2"/>
+<text class="bb" x="154" y="604" text-anchor="end">178万円</text>
+<text class="bb" x="222" y="584">本人に所得税がかかり始める</text>
+<text class="s" x="222" y="620">2026年分・2027年分の特例</text>
+<rect x="204" y="660" width="435" height="68" rx="12" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<circle cx="172" cy="694" r="8" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="3"/>
+<path d="M180 694 H204" stroke="#E5E5E5" stroke-width="2"/>
+<text class="bb" x="154" y="702" text-anchor="end">207万円</text>
+<text class="bb" x="222" y="698">配偶者特別控除の対象外になる</text>
+</svg>

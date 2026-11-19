@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 616" role="img" aria-labelledby="hoikushi-spot-haichi-kijun-ratio-t">
+<title id="hoikushi-spot-haichi-kijun-ratio-t">保育士1人あたりの子どもの数（配置基準）／0歳：保育士1人に子ども3人／1・2歳：保育士1人に子ども6人／3歳：保育士1人に子ども15人（2028年3月末までは20人でも可）／4・5歳：保育士1人に子ども25人（当分の間は30人でも可）</title>
+<style>.h{font:700 26px var(--font-ja,sans-serif);fill:#333}.b{font:400 22px var(--font-body,sans-serif);fill:#333}.bb{font:700 24px var(--font-body,sans-serif);fill:#333}.s{font:400 20px var(--font-body,sans-serif);fill:#666}.n{font:700 22px var(--font-body,sans-serif);fill:#333}.t{font:700 28px var(--font-ja,sans-serif);fill:#333}</style>
+<text class="t" x="0" y="30">保育士1人あたりの子どもの数（配置基準）</text>
+<rect x="1" y="52" width="638" height="104" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<text class="h" x="24" y="98">0歳</text>
+<circle cx="50" cy="130" r="16" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2.5"/><text class="s" x="76" y="137">保育士1人</text>
+<text class="bb" x="200" y="98">子ども 3人</text>
+<circle cx="210" cy="128" r="10" fill="#AAAAAA"/>
+<circle cx="236" cy="128" r="10" fill="#AAAAAA"/>
+<circle cx="262" cy="128" r="10" fill="#AAAAAA"/>
+<rect x="1" y="168" width="638" height="104" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<text class="h" x="24" y="214">1・2歳</text>
+<circle cx="50" cy="246" r="16" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2.5"/><text class="s" x="76" y="253">保育士1人</text>
+<text class="bb" x="200" y="214">子ども 6人</text>
+<circle cx="210" cy="244" r="10" fill="#AAAAAA"/>
+<circle cx="236" cy="244" r="10" fill="#AAAAAA"/>
+<circle cx="262" cy="244" r="10" fill="#AAAAAA"/>
+<circle cx="288" cy="244" r="10" fill="#AAAAAA"/>
+<circle cx="314" cy="244" r="10" fill="#AAAAAA"/>
+<circle cx="340" cy="244" r="10" fill="#AAAAAA"/>
+<rect x="1" y="284" width="638" height="140" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<text class="h" x="24" y="330">3歳</text>
+<circle cx="50" cy="362" r="16" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2.5"/><text class="s" x="76" y="369">保育士1人</text>
+<text class="bb" x="200" y="330">子ども 15人</text>
+<circle cx="210" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="236" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="262" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="288" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="314" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="340" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="366" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="392" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="418" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="444" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="470" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="496" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="522" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="548" cy="360" r="10" fill="#AAAAAA"/>
+<circle cx="574" cy="360" r="10" fill="#AAAAAA"/>
+<text class="s" x="200" y="402">2028年3月末までは20人でも可</text>
+<rect x="1" y="436" width="638" height="166" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<text class="h" x="24" y="482">4・5歳</text>
+<circle cx="50" cy="514" r="16" fill="#FFFFFF" stroke="#F4A7B9" stroke-width="2.5"/><text class="s" x="76" y="521">保育士1人</text>
+<text class="bb" x="200" y="482">子ども 25人</text>
+<circle cx="210" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="236" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="262" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="288" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="314" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="340" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="366" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="392" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="418" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="444" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="470" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="496" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="522" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="548" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="574" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="600" cy="512" r="10" fill="#AAAAAA"/>
+<circle cx="210" cy="538" r="10" fill="#AAAAAA"/>
+<circle cx="236" cy="538" r="10" fill="#AAAAAA"/>
+<circle cx="262" cy="538" r="10" fill="#AAAAAA"/>
+<circle cx="288" cy="538" r="10" fill="#AAAAAA"/>
+<circle cx="314" cy="538" r="10" fill="#AAAAAA"/>
+<circle cx="340" cy="538" r="10" fill="#AAAAAA"/>
+<circle cx="366" cy="538" r="10" fill="#AAAAAA"/>
+<circle cx="392" cy="538" r="10" fill="#AAAAAA"/>
+<circle cx="418" cy="538" r="10" fill="#AAAAAA"/>
+<text class="s" x="200" y="580">当分の間は30人でも可</text>
+</svg>
