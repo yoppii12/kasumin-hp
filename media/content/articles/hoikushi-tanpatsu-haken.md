@@ -67,6 +67,8 @@ notionUrl: "https://app.notion.com/p/40dc08e5f34c8160a2b3fe4f0ce4e6ed"
 
 つまり、禁止されているのは「保育士の派遣」そのものではなく、「30日以内の期間で雇われて派遣されること」です。
 
+![派遣で単発の保育の仕事ができるか](/images/diagrams/hoikushi-tanpatsu-haken-hantei.svg)
+
 ## 例外になる人
 
 ```slide

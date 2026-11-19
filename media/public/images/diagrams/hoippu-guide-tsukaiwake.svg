@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 726" role="img" aria-labelledby="hoippu-guide-tsukaiwake-t">
+<title id="hoippu-guide-tsukaiwake-t">保いっぷ・ハローワーク・えんまーるの使い分け／保いっぷ（長崎県の就職支援の窓口）：スタッフに希望を伝え、見学や面接の日程を調整してもらう、相談しながら、続けて働く園を探したい人に／ハローワーク（国の就職支援の窓口（公共職業安定所））：「支援センターの支援も希望する」と伝えると、保いっぷの支援も受けられる、ハローワーク長崎では、毎月第3火曜に保いっぷの巡回相談がある／えんまーる（園の募集情報を掲載する情報提供プラットフォーム）：募集を自分で見て、自分で応募する、午前のみ・単発・週1など、短い時間から試したい人に</title>
+<style>.h{font:700 26px var(--font-ja,sans-serif);fill:#333}.b{font:400 22px var(--font-body,sans-serif);fill:#333}.bb{font:700 24px var(--font-body,sans-serif);fill:#333}.s{font:400 20px var(--font-body,sans-serif);fill:#666}.n{font:700 22px var(--font-body,sans-serif);fill:#333}.t{font:700 28px var(--font-ja,sans-serif);fill:#333}</style>
+<text class="t" x="0" y="30">保いっぷ・ハローワーク・えんまーるの使い分け</text>
+<rect x="1" y="52" width="638" height="212" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<text class="h" x="24" y="92">保いっぷ</text>
+<text class="s" x="24" y="130">長崎県の就職支援の窓口</text>
+<circle cx="30" cy="162" r="5" fill="#F4A7B9"/>
+<text class="b" x="46" y="170">スタッフに希望を伝え、見学や面接の日程を調整しても</text><text class="b" x="46" y="200">らう</text>
+<circle cx="30" cy="228" r="5" fill="#F4A7B9"/>
+<text class="b" x="46" y="236">相談しながら、続けて働く園を探したい人に</text>
+<rect x="1" y="276" width="638" height="242" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<text class="h" x="24" y="316">ハローワーク</text>
+<text class="s" x="24" y="354">国の就職支援の窓口（公共職業安定所）</text>
+<circle cx="30" cy="386" r="5" fill="#F4A7B9"/>
+<text class="b" x="46" y="394">「支援センターの支援も希望する」と伝えると、保いっ</text><text class="b" x="46" y="424">ぷの支援も受けられる</text>
+<circle cx="30" cy="452" r="5" fill="#F4A7B9"/>
+<text class="b" x="46" y="460">ハローワーク長崎では、毎月第3火曜に保いっぷの巡回相</text><text class="b" x="46" y="490">談がある</text>
+<rect x="1" y="530" width="638" height="182" rx="14" fill="#F9F9F9" stroke="#E5E5E5" stroke-width="1.5"/>
+<text class="h" x="24" y="570">えんまーる</text>
+<text class="s" x="24" y="608">園の募集情報を掲載する情報提供プラットフォーム</text>
+<circle cx="30" cy="640" r="5" fill="#F4A7B9"/>
+<text class="b" x="46" y="648">募集を自分で見て、自分で応募する</text>
+<circle cx="30" cy="676" r="5" fill="#F4A7B9"/>
+<text class="b" x="46" y="684">午前のみ・単発・週1など、短い時間から試したい人に</text>
+</svg>
