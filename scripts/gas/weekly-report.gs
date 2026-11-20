@@ -18,7 +18,7 @@
 // GA4のプロパティID（数字のみ。GA4 管理 → プロパティ設定 → プロパティID）
 const PROPERTY_ID = 'ここにプロパティIDを入力';
 const NOTIFY_EMAIL = 'info@laplust.com'; // 通知先（カンマ区切りで複数可）
-const SITE_NAME = 'KASUMIN HP (kasumin.biz)';
+const SITE_NAME = 'KASUMIN HP・オウンドメディア';
 // Looker StudioのURL（作成後に貼るとメール末尾にリンクが付く。空なら省略）
 const DASHBOARD_URL = '';
 
@@ -37,6 +37,13 @@ function setupWeeklyTrigger() {
 }
 
 // 本体: 直近7日 vs その前の7日 を集計してメール送信
+// 同じ GA4 プロパティに HP とオウンドメディア（media.kasumin.biz）の両方が入るため、
+// ホスト名でサイトを分けて集計する（2026/11/20〜。分けないと両サイトの数字が混ざる）
+const SECTIONS = [
+  { label: 'HP（kasumin.biz）', hosts: ['kasumin.biz', 'www.kasumin.biz'] },
+  { label: 'オウンドメディア（media.kasumin.biz）', hosts: ['media.kasumin.biz'] },
+];
+
 function sendWeeklyReport() {
   const property = 'properties/' + PROPERTY_ID;
   const fmt = (d) => Utilities.formatDate(d, 'Asia/Tokyo', 'yyyy-MM-dd');
@@ -45,13 +52,39 @@ function sendWeeklyReport() {
   const start = new Date(end.getTime() - 6 * 86400000); // 直近7日
   const prevEnd = new Date(start.getTime() - 1 * 86400000);
   const prevStart = new Date(prevEnd.getTime() - 6 * 86400000);
+  const range = { start: fmt(start), end: fmt(end), prevStart: fmt(prevStart), prevEnd: fmt(prevEnd) };
+
+  const lines = [
+    `${SITE_NAME} の週次アクセスレポートです。`,
+    `対象期間: ${range.start} 〜 ${range.end}（比較: ${range.prevStart} 〜 ${range.prevEnd}）`,
+  ];
+  SECTIONS.forEach((sec) => {
+    lines.push('', `━━ ${sec.label} ━━`, ...sectionLines(property, range, sec.hosts));
+  });
+  if (DASHBOARD_URL) {
+    lines.push('', `ダッシュボード: ${DASHBOARD_URL}`);
+  }
+  lines.push('', '※このメールはGASによる自動送信です（毎週月曜朝）。');
+
+  MailApp.sendEmail({
+    to: NOTIFY_EMAIL,
+    subject: `【HP週次レポート】${SITE_NAME} ${range.start}〜${range.end}`,
+    body: lines.join('\n'),
+  });
+}
+
+// 1つのサイト（ホスト名）分のレポート本文を作る
+function sectionLines(property, range, hosts) {
+  const dimensionFilter = {
+    filter: { fieldName: 'hostName', inListFilter: { values: hosts } },
+  };
 
   // 1) 全体サマリー（2期間比較）
   const summary = AnalyticsData.Properties.runReport(
     {
       dateRanges: [
-        { startDate: fmt(start), endDate: fmt(end) },
-        { startDate: fmt(prevStart), endDate: fmt(prevEnd) },
+        { startDate: range.start, endDate: range.end },
+        { startDate: range.prevStart, endDate: range.prevEnd },
       ],
       metrics: [
         { name: 'activeUsers' },
@@ -59,6 +92,7 @@ function sendWeeklyReport() {
         { name: 'screenPageViews' },
         { name: 'averageSessionDuration' },
       ],
+      dimensionFilter,
     },
     property,
   );
@@ -69,11 +103,12 @@ function sendWeeklyReport() {
   // 2) ページ別ランキング（直近7日・上位10）
   const pages = AnalyticsData.Properties.runReport(
     {
-      dateRanges: [{ startDate: fmt(start), endDate: fmt(end) }],
+      dateRanges: [{ startDate: range.start, endDate: range.end }],
       dimensions: [{ name: 'pagePath' }],
       metrics: [{ name: 'activeUsers' }, { name: 'screenPageViews' }],
       orderBys: [{ metric: { metricName: 'activeUsers' }, desc: true }],
       limit: 10,
+      dimensionFilter,
     },
     property,
   );
@@ -81,24 +116,45 @@ function sendWeeklyReport() {
   // 3) 流入元（直近7日・上位5）
   const sources = AnalyticsData.Properties.runReport(
     {
-      dateRanges: [{ startDate: fmt(start), endDate: fmt(end) }],
+      dateRanges: [{ startDate: range.start, endDate: range.end }],
       dimensions: [{ name: 'sessionSourceMedium' }],
       metrics: [{ name: 'activeUsers' }],
       orderBys: [{ metric: { metricName: 'activeUsers' }, desc: true }],
       limit: 5,
+      dimensionFilter,
     },
     property,
   );
 
-  const lines = [
-    `${SITE_NAME} の週次アクセスレポートです。`,
-    `対象期間: ${fmt(start)} 〜 ${fmt(end)}（比較: ${fmt(prevStart)} 〜 ${fmt(prevEnd)}）`,
-    '',
+  // 4) LINE ボタンのクリック（GTM のカスタムイベント line_click。GTM・GA4 の設定後に数字が入る）
+  const lineClicks = AnalyticsData.Properties.runReport(
+    {
+      dateRanges: [
+        { startDate: range.start, endDate: range.end },
+        { startDate: range.prevStart, endDate: range.prevEnd },
+      ],
+      metrics: [{ name: 'eventCount' }],
+      dimensionFilter: {
+        andGroup: {
+          expressions: [
+            dimensionFilter,
+            { filter: { fieldName: 'eventName', stringFilter: { value: 'line_click' } } },
+          ],
+        },
+      },
+    },
+    property,
+  );
+  const lineCur = metricValues(lineClicks, 0);
+  const linePrev = metricValues(lineClicks, 1);
+
+  return [
     '■ 全体サマリー（前週比）',
     row('アクティブユーザー', cur[0], prev[0]),
     row('新規ユーザー', cur[1], prev[1]),
     row('表示回数', cur[2], prev[2]),
     row('平均セッション時間(秒)', Math.round(cur[3]), Math.round(prev[3])),
+    row('LINEボタンのクリック', lineCur[0] || 0, linePrev[0] || 0),
     '',
     '■ ページ別（直近7日・アクティブユーザー上位10）',
     ...(pages.rows || []).map(
@@ -111,19 +167,8 @@ function sendWeeklyReport() {
       (r) => `  ${r.dimensionValues[0].value}  … ${r.metricValues[0].value}人`,
     ),
   ];
-  if (DASHBOARD_URL) {
-    lines.push('', `ダッシュボード: ${DASHBOARD_URL}`);
-  }
-  lines.push('', '※このメールはGASによる自動送信です（毎週月曜朝）。');
-
-  MailApp.sendEmail({
-    to: NOTIFY_EMAIL,
-    subject: `【HP週次レポート】${SITE_NAME} ${fmt(start)}〜${fmt(end)}`,
-    body: lines.join('\n'),
-  });
 }
 
-// 期間インデックスに対応する行のメトリクス値を数値配列で返す
 function metricValues(report, rangeIndex) {
   const rows = report.rows || [];
   // dateRange複数指定時は dimensionValues に date_range_0 / date_range_1 が入る
